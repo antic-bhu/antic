@@ -1,0 +1,70 @@
+
+.align{
+  width:270px;
+  height:270px;
+  display: block;
+  flex-flow:row wrap;
+  justify-content:space-around;
+  align-items:space-around;
+}
+.card-container{
+  -webkit-perspective:1200;
+  -moz-perspective:1200;
+  perspective:1200;
+}
+.card-vertical, .card-horizontal{
+  height:270px;
+  width:270px;
+  box-shadow: 0 6px 8px #bbb;
+  -moz-transform-style:preserve-3d;
+  -webkit-transform-style:preserve-3d;
+  transform-style:preserve-3d;
+
+  transition:all .4s ease;
+ }
+.card-front, .card-back{
+  color:#3ba3b5;
+  height:100%;
+  width:100%;
+  position:absolute;
+  background:#3ba3b5;
+  -moz-backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -webkit-transform-style:preserve-3d;
+  -moz-transform-style:preserve-3d;
+  transform-style:preserve-3d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ }
+.card-back{
+  -moz-transform:rotateY(179.9deg);
+  -webkit-transform:rotateY(179.9deg);
+  transform:rotateY(179.9deg);
+  background:#3ba3b5 ;
+ }
+.card-front-content, .card-back-content{
+  box-sizing:border-box;
+  text-align:center;
+  line-height:1;
+  font-family: "Open Sans", sans-serif;
+  
+}
+
+.card-back-hr{
+  -webkit-transform:rotateX(179.9deg);
+  -moz-transform:rotateX(179.9deg);
+  transform:rotateX(179.9deg);
+}
+.card-vertical:hover{
+  -webkit-transform:rotateY(179.9deg);
+  -moz-transform:rotateY(179.9deg);
+  transform:rotateY(179.9deg);
+}
+.card-horizontal:hover{
+  -webkit-transform:rotateX(179.9deg);
+  -moz-transform:rotateX(179.9deg);
+  transform:rotateX(179.9deg);
+}
+
