@@ -1,0 +1,39 @@
+{
+  "title": "5<sup style='text-transform: none;'>th</sup> International Conference on",
+  "subtitle1": "Advanced Network Technologies",
+  "subtitle2": "Intelligent Computing",
+  "dates": "21 - 23 DECEMBER, 2025",
+  "organizer": {
+    "department": "DEPARTMENT OF INFORMATION TECHNOLOGY",
+    "institute": "ATAL BIHARI VAJPAYEE<br> INDIAN INSTITUTE OF INFORMATION TECHNOLOGY AND MANAGEMENT",
+    "location": "GWALIOR, INDIA"
+  },
+  "collaborator": {
+    "enabled": false,
+    "department": "DEPARTMENT OF COMPUTER SCIENCE",
+    "institute": "INSTITUTE OF SCIENCE",
+    "location": "BANARAS HINDU UNIVERSITY, VARANASI, INDIA"
+  },
+  "logos": [
+    {
+      "src": "/static/img/iiitmgwalior_logo.png",
+      "styleDesk": "padding:0px 0px 0px 50px; height: 90px;",
+      "styleCell": "padding:5px; height: 40px;"
+    },
+    {
+      "src": "/static/img/partner2.png",
+      "styleDesk": "padding:5px 50px 5px 50px; height: 70px;",
+      "styleCell": "padding:5px; height: 40px;"
+    },
+    {
+      "src": "/static/img/partner1.jpg",
+      "styleDesk": "padding:5px 0px 5px 0px; height: 70px;",
+      "styleCell": "padding:5px; height: 40px;"
+    },
+    {
+      "src": "/static/img/partner3.png",
+      "styleDesk": "padding:5px 50px 5px 50px; height: 70px;",
+      "styleCell": "padding:5px; height: 40px;"
+    }
+  ]
+}
