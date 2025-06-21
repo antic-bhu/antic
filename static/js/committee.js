@@ -39,6 +39,7 @@ fetch('/committee.json')
 
         const img = document.createElement('img');
         img.className = 'poster';
+        img.style.height = '180px';
         img.src = member.photo || '/static/img/person.png';
         posterContainer.appendChild(img);
 
