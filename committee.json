@@ -35,6 +35,77 @@
       ]
     },
     {
+      "committeeTitle": "Advisory Board",
+      "members": [
+        {
+          "name": "Prof. Rajendra Sahu",
+          "affiliation": "ABV-Indian Institute of Information Technology and Management, Gwalior, India",
+          "designation": "",
+          "photo": "https://www.iiitm.ac.in/images/demo/teachers/1533028836_rsahu.jpg"
+        },
+        {
+          "name": "Prof. Anupam Shukla",
+          "affiliation": "Indian Institute of Information Technology, Pune, India",
+          "designation": "",
+          "photo": "https://www.iiitm.ac.in/images/demo/teachers/1533046809_anupamshukla.jpg"
+        },
+        {
+          "name": "Prof. Bansidhar Majhi",
+          "affiliation": "Indian Institute of Information Technology, D&M, Kancheepuram, India",
+          "designation": "",
+          "photo": "/static/img/cm/ab3.jpg"
+        },
+        {
+          "name": "Prof. M. M. Gore",
+          "affiliation": "Motilal Nehru National Institute of Technology, Allahabad, India",
+          "designation": "",
+          "photo": "https://www.mnnit.ac.in/userprofile/uploads/cropMMG.png"
+        },
+        {
+          "name": "Prof. Rajeev Srivastava",
+          "affiliation": "Indian Institute of Technology, Ranchi, India",
+          "designation": "",
+          "photo": "/static/img/cm/ab9.jpg"
+        },
+        {
+          "name": "Prof. Anil Kumar Tripathi",
+          "affiliation": "Indian Institute of Technology (BHU), Varanasi, India",
+          "designation": "",
+          "photo": "/static/img/cm/ab1.jpg"
+        },
+        {
+          "name": "Prof. Rajeev Ranjan",
+          "affiliation": "Newcastle University, United Kingdom",
+          "designation": "",
+          "photo": "/static/img/cm/ab8.jpg"
+        },
+        {
+          "name": "Dr. Paulo Mendes",
+          "affiliation": "Airbus Germany",
+          "designation": "",
+          "photo": "https://lh6.googleusercontent.com/iO5njorWtba7HRQQD8CMKaGfRpXx829r_Jmcw6Gi7RDXTpEIwq8_K-ATzM8YYSekTzrG-6vZPzYaMaLgXOuTh7Ihe4zIaliy8ydZx_eBDsW_H_qfyxNNFNv2QZfBff3VPkoTVFC9qkualnGrlnhfjaYsKa9cEWTW0dWskczOajH24zDDX1w3vA=w1280"
+        },
+        {
+          "name": "Dr. Maxime Guillaud",
+          "affiliation": "INRIA, France",
+          "designation": "",
+          "photo": "https://maximeguillaud.github.io/MaximeGuillaud17.jpg"
+        },
+        {
+          "name": "Prof. Aditya Trivedi",
+          "affiliation": "ABV-Indian Institute of Information Technology and Management, Gwalior, India",
+          "designation": "",
+          "photo": "https://www.iiitm.ac.in/images/demo/teachers/1533046686_atrivedi.jpg"
+        },
+        {
+          "name": "Prof. Mahua Bhattacharya",
+          "affiliation": "ABV-Indian Institute of Information Technology and Management, Gwalior, India",
+          "designation": "",
+          "photo": "https://www.iiitm.ac.in/images/demo/teachers/1533047541_mahuabhatt.jpg"
+        }
+      ]
+    },
+    {
       "committeeTitle": "General Chair",
       "members": [
         {
