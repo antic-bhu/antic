@@ -475,6 +475,48 @@
       ]
     },
     {
+      "committeeTitle": "Volume Editors",
+      "view": 4,
+      "members": [
+        {
+          "name": "Dr. Anshul Verma",
+          "designation": "",
+          "affiliation": "Banaras Hindu University, Varanasi, India",
+          "photo": null
+        },
+        {
+          "name": "Dr. Pradeepika Verma",
+          "designation": "",
+          "affiliation": "Indian Institute of Technology, Patna, India",
+          "photo": null
+        },
+        {
+          "name": "Prof. K. K. Pattanaik",
+          "designation": "",
+          "affiliation": "ABV-Indian Institute of Information Technology and Management, Gwalior, India",
+          "photo": null
+        },
+        {
+          "name": "Prof. Rajkumar Buyya",
+          "designation": "",
+          "affiliation": "The University of Melbourne, Melbourne, Australia",
+          "photo": null
+        },
+        {
+          "name": "Prof. Dipankar Dasgupta",
+          "designation": "",
+          "affiliation": "The University of Memphis, Memphis, USA",
+          "photo": null
+        },
+        {
+          "name": "Prof. Paolo Bellavista",
+          "designation": "",
+          "affiliation": "University of Bologna, Bologna, Italy",
+          "photo": null
+        }
+      ]
+    },
+    {
       "committeeTitle": "Web Committee",
       "view": 4,
       "members": [
