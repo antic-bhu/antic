@@ -17,7 +17,7 @@ fetch('/committee.json')
       const row = document.createElement('div');
       row.className = 'row';
       row.style.alignItems = 'center';
-      let wrapper1;
+      let wrapper1, wrapper2;
 
       const memberCount = committee.members.length;
       let colClass = 'col-md-4 col-lg-3';
@@ -26,45 +26,118 @@ fetch('/committee.json')
       else if (memberCount === 2) colClass = 'col-md-6 col-lg-6';
       else if (memberCount === 3) colClass = 'col-md-6 col-lg-4';
 
-      committee.members.forEach(member => {
-        const col = document.createElement('div');
-        col.className = colClass;
-        col.style.paddingBottom = '10px';
+      if (committee.view === 4) {
+        wrapper2 = document.createElement('div');
+        wrapper2.className = 'col-lg-12';
+        wrapper2.style.paddingBottom = '10px';
 
-        const container = document.createElement('div');
-        container.className = 'main-container';
+        const title = document.createElement('h2');
+        title.style.cssText = 'color: #000d16; font-size:30px; text-align: center;';
+        title.textContent = committee.committeeTitle;
+        wrapper2.appendChild(title);
 
-        const posterContainer = document.createElement('div');
-        posterContainer.className = 'poster-container';
+        const infoRow = document.createElement('div');
+        infoRow.className = 'row justify-content-center';
+        infoRow.style.textAlign = 'center';
 
-        const img = document.createElement('img');
-        img.className = 'poster';
-        img.style.height = '180px';
-        img.src = member.photo || '/static/img/person.png';
-        posterContainer.appendChild(img);
+        committee.members.forEach(member => {
+          const col = document.createElement('div');
+          col.className = 'col-md-4 col-lg-3';
+          col.style.marginBottom = '20px';
 
-        const ticketContainer = document.createElement('div');
-        ticketContainer.className = 'ticket-container';
+          const card = document.createElement('div');
+          card.style.border = '1px solid #ddd';
+          card.style.borderRadius = '8px';
+          card.style.overflow = 'hidden';
+          card.style.boxShadow = '0 2px 5px rgba(0,0,0,0.1)';
+          card.style.background = '#fff';
 
-        const content = document.createElement('div');
-        content.className = 'ticket__content';
+          // Title bar
+          const titleBar = document.createElement('div');
+          titleBar.style.backgroundColor = '#3ba3b5'; // or use a color from committee.titleColor if available
+          titleBar.style.padding = '10px';
+          titleBar.style.textAlign = 'center';
 
-        const name = document.createElement('h4');
-        name.className = 'ticket__movie-title';
-        name.textContent = member.name;
+          const name = document.createElement('h5');
+          name.textContent = member.name;
+          name.style.margin = 0;
+          name.style.fontWeight = 'bold';
+          name.style.color = '#fff';
+          name.style.fontSize = '16px';
 
-        const button = document.createElement('button');
-        button.className = 'ticket__buy-btn';
-        button.innerHTML = `${member.designation || ''}<br>${member.affiliation || ''}`;
+          titleBar.appendChild(name);
+          card.appendChild(titleBar);
 
-        content.appendChild(name);
-        content.appendChild(button);
-        ticketContainer.appendChild(content);
+          // Body
+          const body = document.createElement('div');
+          body.style.padding = '10px';
 
-        container.appendChild(posterContainer);
-        container.appendChild(ticketContainer);
-        col.appendChild(container);
-        row.appendChild(col);
+          if (member.designation) {
+            const designation = document.createElement('p');
+            designation.style.margin = '0';
+            designation.style.fontSize = '13px';
+            designation.style.color = '#555';
+            designation.textContent = member.designation;
+            body.appendChild(designation);
+          }
+
+          if (member.affiliation) {
+            const affiliation = document.createElement('p');
+            affiliation.style.margin = '0';
+            affiliation.style.fontSize = '13px';
+            affiliation.style.color = '#000';
+            affiliation.textContent = member.affiliation;
+            body.appendChild(affiliation);
+          }
+
+          card.appendChild(body);
+          col.appendChild(card);
+          infoRow.appendChild(col);
+        });
+
+        wrapper2.appendChild(infoRow);
+      }
+      else {
+        committee.members.forEach(member => {
+          const col = document.createElement('div');
+          col.className = colClass;
+          col.style.paddingBottom = '10px';
+
+          const container = document.createElement('div');
+          container.className = 'main-container';
+
+          const posterContainer = document.createElement('div');
+          posterContainer.className = 'poster-container';
+
+          const img = document.createElement('img');
+          img.className = 'poster';
+          img.style.height = '180px';
+          img.src = member.photo || '/static/img/person.png';
+          posterContainer.appendChild(img);
+
+          const ticketContainer = document.createElement('div');
+          ticketContainer.className = 'ticket-container';
+
+          const content = document.createElement('div');
+          content.className = 'ticket__content';
+
+          const name = document.createElement('h4');
+          name.className = 'ticket__movie-title';
+          name.textContent = member.name;
+
+          const button = document.createElement('button');
+          button.className = 'ticket__buy-btn';
+          button.innerHTML = `${member.designation || ''}<br>${member.affiliation || ''}`;
+
+          content.appendChild(name);
+          content.appendChild(button);
+          ticketContainer.appendChild(content);
+
+          container.appendChild(posterContainer);
+          container.appendChild(ticketContainer);
+          col.appendChild(container);
+          row.appendChild(col);
+        });
 
         if (committee.view === 3) {
           wrapper1 = document.createElement('div');
@@ -120,13 +193,15 @@ fetch('/committee.json')
           footer.appendChild(footerTop);
           wrapper1.appendChild(footer);
         }
-      });
+      }
 
-      sectionDiv.appendChild(row);
-      if (committee.view !== 3) {
-        desktopContainer.appendChild(sectionDiv);
-      } else if (wrapper1) {
+      if (committee.view === 3 && wrapper1) {
         desktopContainer.appendChild(wrapper1);
+      } else if (committee.view === 4 && wrapper2) {
+        desktopContainer.appendChild(wrapper2);
+      } else {
+        sectionDiv.appendChild(row);
+        desktopContainer.appendChild(sectionDiv);
       }
 
       // === MOBILE VIEW ===
@@ -151,7 +226,6 @@ fetch('/committee.json')
         name.style.color = '#fff';
         name.textContent = member.name;
 
-        // Show popover with image if photo exists
         if (member.photo) {
           name.setAttribute('tabindex', '0');
           name.setAttribute('data-toggle', 'popover');
@@ -183,12 +257,12 @@ fetch('/committee.json')
       dropdownDiv.appendChild(button);
       dropdownDiv.appendChild(content);
 
-      const wrapper = document.createElement('div');
-      wrapper.className = 'col-lg-12';
-      wrapper.style.alignItems = 'center';
-      wrapper.appendChild(dropdownDiv);
+      const mobileWrapper = document.createElement('div');
+      mobileWrapper.className = 'col-lg-12';
+      mobileWrapper.style.alignItems = 'center';
+      mobileWrapper.appendChild(dropdownDiv);
 
-      mobileContainer.appendChild(wrapper);
+      mobileContainer.appendChild(mobileWrapper);
     });
 
     // Initialize popovers

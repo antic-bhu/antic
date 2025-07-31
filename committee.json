@@ -30,7 +30,7 @@
           "name": "Prof. Paolo Bellavista",
           "affiliation": "University of Bologna, Bologna, Italy",
           "designation": "",
-          "photo": null
+          "photo": "/static/img/cm/paoloBellavista.jpg"
         }
       ]
     },
@@ -110,6 +110,7 @@
     },
     {
       "committeeTitle": "Track Chair",
+      "view": 4,
       "members": [
         {
           "name": "Prof. Aditya Trivedi",
@@ -301,6 +302,7 @@
     },
     {
       "committeeTitle": "Publication Chair",
+      "view": 4,
       "members": [
         {
           "name": "Dr. Poornima Singh Thakur",
@@ -318,6 +320,7 @@
     },
     {
       "committeeTitle": "Publicity Chair",
+      "view": 4,
       "members": [
         {
           "name": "Dr. Om Jee Pandey",
@@ -335,6 +338,7 @@
     },
     {
       "committeeTitle": "Website Chair",
+      "view": 4,
       "members": [
         {
           "name": "Dr. Vijaypal Singh Rathor",
@@ -352,6 +356,7 @@
     },
     {
       "committeeTitle": "Organizing Committee",
+      "view": 4,
       "members": [
         {
           "name": "Prof. Aditya Trivedi",
@@ -471,7 +476,7 @@
     },
     {
       "committeeTitle": "Web Committee",
-      "view": 2,
+      "view": 4,
       "members": [
         {
           "name": "Mr. Vikas Kumar Patel",
