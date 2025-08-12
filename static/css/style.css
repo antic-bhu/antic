@@ -1550,3 +1550,57 @@ h6 {
     margin-top: 10px;
   }
 }
+
+/* Base Section Layout */
+.workshop-section {
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+  position: relative;
+  padding: 60px 0 40px 0;
+}
+
+/* Common text styles */
+.workshop-section h2 {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.workshop-section h3 {
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.workshop-section p {
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+/* Dark Theme */
+.workshop-dark {
+  color: #fff;
+  background-blend-mode: multiply;
+  background-color: rgba(0, 13, 22, 0.9);
+}
+
+.workshop-dark h2,
+.workshop-dark h3,
+.workshop-dark p {
+  color: #fff;
+}
+
+/* Light Theme */
+.workshop-light {
+  color: #000;
+  background-blend-mode: lighten;
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+.workshop-light h2,
+.workshop-light h3,
+.workshop-light p {
+  color: #000;
+}
