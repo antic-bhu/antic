@@ -93,24 +93,24 @@
                 </div>
                 <nav id="nav-menu-container">
                     <ul class="nav-menu">
-                        <li class="menu-active"><a href="#">Home</a></li>
-                        <li><a href="#about">About</a></li>
-                        <li><a href="#guidelines">Guidelines</a></li>
-                        <li><a href="#dates">Important Dates</a></li>
-                        <li><a href="/committee.html">Committee</a></li>
-                        <li><a href="/gallery.html">Gallery</a></li>
+                        <li class="menu-active"><a href="#" onclick="umami.track('menu_home')">Home</a></li>
+                        <li><a href="#about" onclick="umami.track('menu_about')">About</a></li>
+                        <li><a href="#guidelines" onclick="umami.track('menu_guidelines')">Guidelines</a></li>
+                        <li><a href="#dates" onclick="umami.track('menu_dates')">Important Dates</a></li>
+                        <li><a href="/committee.html" onclick="umami.track('menu_committee')">Committee</a></li>
+                        <li><a href="/gallery.html" onclick="umami.track('menu_gallery')">Gallery</a></li>
                         <!-- <li><a href="/workshop.html"> Workshop</a></li> -->
-                        <li><a href="#contacts">Contact</a></li>
+                        <li><a href="#contacts" onclick="umami.track('menu_contacts')">Contact</a></li>
                         <!-- <li><a href="#howToReach">How To Reach</a></li> -->
                         <li class="menu-has-children"><a href="#">Previous Antic</a>
                             <ul>
-                                <li><a href="/antic-2021/index.html">Antic 2021</a></li>
-                                <li><a href="/antic-2022/index.html">Antic 2022</a></li>
-                                <li><a href="/antic-2023/index.html">Antic 2023</a></li>
-                                <li><a href="/antic-2024/index.html">Antic 2024</a></li>
+                                <li><a href="/antic-2021/index.html" onclick="umami.track('menu_antic21')">Antic 2021</a></li>
+                                <li><a href="/antic-2022/index.html" onclick="umami.track('menu_antic22')">Antic 2022</a></li>
+                                <li><a href="/antic-2023/index.html" onclick="umami.track('menu_antic23')">Antic 2023</a></li>
+                                <li><a href="/antic-2024/index.html" onclick="umami.track('menu_antic24')">Antic 2024</a></li>
                             </ul>
                         </li>
-                        <li class="buy-tickets"><a href="/workshop.html">AAMLAD-2025</a></li>
+                        <li class="buy-tickets"><a href="/workshop.html" onclick="umami.track('menu_AAMLAD')">AAMLAD-2025</a></li>
                     </ul>
                 </nav><!-- #nav-menu-container -->
             </div>
@@ -173,7 +173,7 @@
         <p class="mb-1 pb-0" style="font-size: 14px;">INSTITUTE OF SCIENCE<br>BANARAS HINDU
           UNIVERSITY, VARANASI, INDIA</p> -->
 
-            <!--      <p class="mb-0 pb-0"><marquee>Last Date of Manuscript Submission: September 30, 2024 (Extended)</marquee></p>-->
+                  <p class="mb-0 pb-0"><marquee>Last Date of Manuscript Submission: October 10, 2025 (Extended)</marquee></p>
 
             <!-- <div class="picColor" style="margin-bottom: 5px">
           <a href="/viic2022"><strong style="color:#3ba3b5">Vishleshan Innovative Ideas Contest</strong></a><br>
@@ -181,7 +181,7 @@
 
            <a href="#">
                    <div class="picColor" style="margin-bottom: 5px">
-                     <a href="https://meteor.springer.com/ANTIC2025"><strong style="color:#3ba3b5">Click Here to Submit Paper</strong></a>
+                     <a href="https://meteor.springer.com/ANTIC2025" onclick="umami.track('ANTIC metor submission link')"><strong style="color:#3ba3b5">Click Here to Submit Paper</strong></a>
                      <br>
                    </div>
                    <!-- <div class="picColor" style="margin-bottom: 5px">
@@ -217,7 +217,7 @@
                         <a href="#">
                 <div style="margin-top: 10px">
 
-                    <a href="/workshop.html"><span style="color: #fff;">Click Here for</span> <br> <strong
+                    <a href="/workshop.html" onclick="umami.track('AAMLAD click')"><span style="color: #fff;">Click Here for</span> <br> <strong
                             style="color:#3ba3b5">1st International workshop on Advancing AI and ML Across Disciplines:
                             Use Cases and
                             Emerging Applications <br> (AAMLAD-2025)</strong></a>
@@ -630,7 +630,7 @@
                                 for
                                 complete
                                 authors guidelines.<br><a style="font-style: italic;"
-                                    href="https://www.springer.com/gp/computer-science/lncs/conference-proceedings-guidelines"
+                                    href="https://www.springer.com/gp/computer-science/lncs/conference-proceedings-guidelines" onclick="umami.track('author guidelines')"
                                     target="_blank">Instructions for Proceedings Authors</a></p>
                         </div>
                         <div class="col-lg-12">
@@ -640,15 +640,15 @@
                                 Microsoft
                                 Word. Please use the following templates provided on the <a style="font-style: italic;"
                                     href="http://www.springer.com/gp/computer-science/lncs/conference-proceedings-guidelines"
-                                    target="_blank">authors’
+                                    target="_blank" onclick="umami.track('author_paper_template')">authors’
                                     page</a>.<br><a style="font-style: italic;"
                                     href="https://resource-cms.springernature.com/springer-cms/rest/v1/content/19238648/data/v8"
-                                    target="_blank">LaTeX2e Proceedings Templates</a><br><a style="font-style: italic;"
+                                    target="_blank" onclick="umami.track('latex_template')">LaTeX2e Proceedings Templates</a><br><a style="font-style: italic;"
                                     href="https://resource-cms.springernature.com/springer-cms/rest/v1/content/19238706/data/v3"
-                                    target="_blank">Microsoft Word Proceedings Templates</a><br><a
+                                    target="_blank" onclick="umami.track('word_template')">Microsoft Word Proceedings Templates</a><br><a
                                     style="font-style: italic;"
                                     href="https://resource-cms.springernature.com/springer-cms/rest/v1/content/7117506/data/v1"
-                                    target="_blank">Microsoft Word 2003 Proceedings Templates</a><br>
+                                    target="_blank" onclick="umami.track('word_template_v2')">Microsoft Word 2003 Proceedings Templates</a><br>
                                 Springer encourages authors to include their <a style="font-style: italic;"
                                     href="https://www.springer.com/gp/authors-editors/orcid?wt_mc=Other.Other.1.AUT642.ORCID+proceedings+pilot+2017&utm_medium=other&utm_source=other&utm_content=8232017&utm_campaign=1_barz01_orcid+proceedings+pilot+2017"
                                     target="_blank">ORCIDs</a> in their papers.
@@ -657,7 +657,7 @@
                                     target="_blank">embedded videos</a> in proceedings papers. Springer’s proceedings
                                 LaTeX templates are
                                 available in <a style="font-style: italic;"
-                                    href="https://www.overleaf.com/latex/templates/springer-lecture-notes-in-computer-science/kzwwpvhwnvfj#.WuA4JS5uZpi"
+                                    href="https://www.overleaf.com/latex/templates/springer-lecture-notes-in-computer-science/kzwwpvhwnvfj#.WuA4JS5uZpi" onclick="umami.track('overleaf_template')"
                                     target="_blank">Overleaf</a>. Overleaf is an open-source online real-time
                                 collaborative LaTeX editor
                                 used for writing, editing and publishing scientific documents. </p>
@@ -705,7 +705,7 @@
                                 interested in Open Access or Open Choice, please refer to Springer <a
                                     style="font-style: italic;"
                                     href="https://www.springer.com/gp/computer-science/lncs/open-access-publishing-in-computer-proceedings"
-                                    target="_blank">webpage</a> for prices and additional information.</p>
+                                    target="_blank" onclick="umami.track('open_access_lncs')">webpage</a> for prices and additional information.</p>
                         </div>
                     </div>
                 </div>
@@ -771,7 +771,7 @@
                                             series
                                             of
                                             Springer.<br><a style="line-height: 60px; font-style: italic;"
-                                                href="https://www.springer.com/series/7899" target="_blank">Springer
+                                                href="https://www.springer.com/series/7899" target="_blank" onclick="umami.track('springer_series')">Springer
                                                 CCIS</a></p>
                                     </div>
                                 </div>
@@ -838,7 +838,7 @@
                         <div class="col-lg-6">
                             <h3 style="text-transform: none;">Last Date of Manuscript Submission</h3>
                             <p style="text-align: center; font-size: 15px; color: #3ba3b5;"><strong>
-                                    September 30, 2025</strong></p>
+                                <del>September 30, 2025</del> October 10, 2025 </strong></p>
                             <h3 style="text-transform: none;">Last Date of Final Manuscript Submission</h3>
                             <p style="text-align: center; font-size: 15px; color: #3ba3b5;"><strong>November 15,
                                     2025</strong></p>
@@ -1856,7 +1856,7 @@
                         </div>
                         <div class="col-lg-6">
                             <strong style="font-size: 15px;">Last Date of Manuscript Submission</strong><br>
-                            <p style="color:#3ba3b5; font-size: 15px;"><strong>September 30, 2025</strong><br>
+                            <p style="color:#3ba3b5; font-size: 15px;"><strong><del>September 30, 2025</del> October 10, 2025 </strong><br>
                             </p>
                             <strong style="font-size: 15px;">Last Date of Acceptance Notification</strong><br>
                             <p style="color:#3ba3b5; font-size: 15px;"><strong>November 10, 2025</strong><br>
