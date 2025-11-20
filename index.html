@@ -92,9 +92,10 @@
                 <nav id="nav-menu-container">
                     <ul class="nav-menu">
                         <li class="menu-active"><a href="#" onclick="umami.track('menu_home')">Home</a></li>
-                        <li><a href="#about" onclick="umami.track('menu_about')">About</a></li>
+<!--                        <li><a href="#about" onclick="umami.track('menu_about')">About</a></li>-->
                         <li><a href="#guidelines" onclick="umami.track('menu_guidelines')">Guidelines</a></li>
                         <li><a href="#dates" onclick="umami.track('menu_dates')">Important Dates</a></li>
+                        <li><a href="#payment_details" onclick="umami.track('menu_dates')">Registration Details</a></li>
                         <li><a href="/committee.html" onclick="umami.track('menu_committee')">Committee</a></li>
                         <li><a href="/gallery.html" onclick="umami.track('menu_gallery')">Gallery</a></li>
                         <!-- <li><a href="/workshop.html"> Workshop</a></li> -->
@@ -128,9 +129,10 @@
             <nav id="nav-menu-container" style="padding-right: 5px;">
                 <ul class="nav-menu">
                     <li class="menu-active"><a href="#"><i class="fa fa-home" aria-hidden="true"></i></a></li>
-                    <li><a href="#about-mob"><i class="fa fa-info"></i></a></li>
+<!--                    <li><a href="#about-mob"><i class="fa fa-info"></i></a></li>-->
                     <li><a href="#guidelines-mob"><i class="fa fa-file-text-o" aria-hidden="true"></i></a></li>
                     <li><a href="#dates-mob"><i class="fa fa-calendar"></i></a></li>
+                    <li><a href="#payment_details-mob"><i class="fa fa-info"></i></a></li>
                     <li><a href="/committee.html"><i class="fa fa-users"></i></a></li>
                     <li><a href="/gallery.html"><i class="fa fa-picture-o"></i></a></li>
                     <li><a href="/workshop.html"><i class="fa fa-flask" aria-hidden="true"></i></a></li>
@@ -171,17 +173,46 @@
         <p class="mb-1 pb-0" style="font-size: 14px;">INSTITUTE OF SCIENCE<br>BANARAS HINDU
           UNIVERSITY, VARANASI, INDIA</p> -->
 
-                  <p class="mb-0 pb-0"><marquee>Last Date of Manuscript Submission: October 10, 2025 (Extended)</marquee></p>
+<!--                  <p class="mb-0 pb-0"><marquee>Last Date of Manuscript Submission: October 10, 2025 (Extended)</marquee></p>-->
 
             <!-- <div class="picColor" style="margin-bottom: 5px">
           <a href="/viic2022"><strong style="color:#3ba3b5">Vishleshan Innovative Ideas Contest</strong></a><br>
         </div> -->
 
            <a href="#">
-                   <div class="picColor" style="margin-bottom: 5px">
+                   <div class="picColor" style="margin-bottom: 10px">
                      <a href="https://meteor.springer.com/ANTIC2025" onclick="umami.track('ANTIC metor submission link')"><strong style="color:#3ba3b5">Click Here to Submit Paper</strong></a>
                      <br>
                    </div>
+<!--               <h5 style="text-transform: none; color: white"><strong>Online Payment Details</strong></h5>-->
+               <div class="picColor" style="margin-bottom: 5px; margin-top: 10px">
+
+                   <!-- Desktop / Tablet -->
+                   <a onclick="umami.track('antic_2025_payment_link')"
+                      href="#payment_details"
+                      class="d-none d-sm-inline">
+                       <strong style="color:#3ba3b5">Click Here for Registration Details</strong>
+                   </a>
+
+                   <!-- Mobile only -->
+                   <a onclick="umami.track('antic_2025_payment_link_mobile')"
+                      href="#payment_details-mob"
+                      class="d-inline d-sm-none">
+                       <strong style="color:#3ba3b5">Click Here for Registration Details</strong>
+                   </a>
+
+               </div>
+
+<!--               <div class="col-lg-12">-->
+<!--                   <h3 style="text-transform: none;">Online Payment Link</h3>-->
+
+<!--                   <button style="border-radius: 10px; background-color: #3ba3b5; border-color: #3ba3b5; width: 150px;" onclick="umami.track('antic_2025_payment')">-->
+<!--                       <a href="https://www.octopod.co.in/payment/collection/08d02b1d9ee5fa9d0be8bb55f8c5dd3c/c4564e1d4c1cc496d41fe73b1ac18407?utm_source=website&utm_medium=button&utm_campaign=registration&utm_content=payment_link&utm_term=bank_transfer"-->
+<!--                          style="color: white; font-size: 15px;">-->
+<!--                           <strong>Pay Online</strong>-->
+<!--                       </a>-->
+<!--                   </button>-->
+<!--               </div>-->
                    <!-- <div class="picColor" style="margin-bottom: 5px">
                      <a href="schedule.html"> <strong style="color:#3ba3b5">Paper Presentation Schedule & Joining Link</strong></a>
                      <br>
@@ -866,7 +897,7 @@
                             <p style="text-align: center; font-size: 15px; color: #3ba3b5;"><strong>7500 INR</strong>
                             </p>
                         </div>
-                        <div class="col-lg-12" style="margin-top: 30px;">
+                        <div id="payment_details" class="col-lg-12" style="margin-top: 30px;">
                             <div class="col-lg-12">
                                 <h2 style="margin-bottom: 20px;">PAYMENT DETAILS</h2>
                             </div>
@@ -889,6 +920,12 @@
                                         <strong>HDFC0002744</strong>
                                     </p>
                                 </div>
+                        <div class="col-lg-6 col-md-6">
+                            <h3 style="text-transform: none;">MICR</h3>
+                            <p style="text-align: center; font-size: 15px; color: #3ba3b5;">
+                                <strong>474240004</strong>
+                            </p>
+                        </div>
 
                                 <div class="col-lg-6 col-md-6">
                                     <h3 style="text-transform: none;">Account Branch</h3>
@@ -918,17 +955,24 @@
                                     </p>
                                 </div>
 
-                                <div class="col-lg-6 col-md-6">
-                                    <h3 style="text-transform: none;">Bank Address</h3>
-                                    <p style="text-align: center; font-size: 15px; color: #3ba3b5;">
-                                        <strong>
-                                            HDFC BANK LTD<br>
-                                            BARADARI CHOWK,<br>
-                                            JHANSI LOOP ROAD, MORAR,<br>
-                                            GWALIOR – 474006, MADHYA PRADESH
-                                        </strong>
-                                    </p>
-                                </div>
+                        <div class="col-lg-6 col-md-6">
+                            <h3 style="text-transform: none;">Bank Address</h3>
+                            <p style="text-align: center; font-size: 15px; color: #3ba3b5;">
+                                <strong>
+                                    HDFC BANK LTD<br>
+                                    BARADARI CHOWK,<br>
+                                    JHANSI LOOP ROAD, MORAR,<br>
+                                    GWALIOR – 474006, MADHYA PRADESH
+                                </strong>
+                            </p>
+                        </div>
+
+                        <div class="col-lg-6 col-md-6">
+                            <h3 style="text-transform: none;">Bank Name</h3>
+                            <p style="text-align: center; font-size: 15px; color: #3ba3b5;">
+                                <strong>HDFC Bank</strong>
+                            </p>
+                        </div>
 
                                 <div class="col-lg-12">
                                     <h3 style="text-transform: none;">Online Payment Link</h3>
@@ -1910,7 +1954,7 @@
                                 </p>
                             </div>
                         </div>
-                        <div class="col-lg-6">
+                        <div class="col-lg-6" id="payment_details-mob">
                             <!-- MOBILE VIEW UPDATED -->
                             <h2 style="margin-bottom: 20px; color: white; font-size: 25px;">PAYMENT DETAILS</h2>
 
@@ -1923,20 +1967,24 @@
                                     <p style="text-align: left; font-size: 15px; color: white;"><strong>Account Name:</strong></p>
                                     <p style="text-align: left; font-size: 15px; color: white;"><strong>Account No.:</strong></p>
                                     <p style="text-align: left; font-size: 15px; color: white;"><strong>RTGS/NEFT IFSC:</strong></p>
+                                    <p style="text-align: left; font-size: 15px; color: white;"><strong>MICR:</strong></p>
                                     <p style="text-align: left; font-size: 15px; color: white;"><strong>Account Branch:</strong></p>
                                     <p style="text-align: left; font-size: 15px; color: white;"><strong>City:</strong></p>
                                     <p style="text-align: left; font-size: 15px; color: white;"><strong>State:</strong></p>
                                     <p style="text-align: left; font-size: 15px; color: white;"><strong>Swift Code:</strong></p>
+                                    <p style="text-align: left; font-size: 15px; color: white;"><strong>Bank Name:</strong></p>
                                 </div>
 
                                 <div class="col-md-3" style="padding-bottom: 10px; width: 50%">
                                     <p style="color:#3ba3b5; text-align: left;"><strong>M/S. ABV-IIITM GWL</strong></p>
                                     <p style="color:#3ba3b5; text-align: left;"><strong>99913777888999</strong></p>
                                     <p style="color:#3ba3b5; text-align: left;"><strong>HDFC0002744</strong></p>
+                                    <p style="color:#3ba3b5; text-align: left;"><strong>474240004</strong></p>
                                     <p style="color:#3ba3b5; text-align: left;"><strong>MURAR</strong></p>
                                     <p style="color:#3ba3b5; text-align: left;"><strong>GWALIOR 474006</strong></p>
                                     <p style="color:#3ba3b5; text-align: left;"><strong>MADHYA PRADESH</strong></p>
                                     <p style="color:#3ba3b5; text-align: left;"><strong>HDFCINBBXXX</strong></p>
+                                    <p style="color:#3ba3b5; text-align: left;"><strong>HDFC Bank</strong></p>
                                 </div>
                             </div>
 
@@ -1947,7 +1995,7 @@
                                     HDFC BANK LTD<br>
                                     BARADARI CHOWK,<br>
                                     JHANSI LOOP ROAD, MORAR,<br>
-                                    GWALIOR – 474006, MADHYA PRADESH
+                                    GWALIOR – 474006, MADHYA PRADESH, INDIA
                                 </strong>
                             </p>
 
