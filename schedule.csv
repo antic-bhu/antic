@@ -1,0 +1,6 @@
+serial,paper_id,paper_title,authors,track,session,day,paper_time,venue,venue_link,meeting_id,session_time,meeting_details_html
+1,ICCS101,Formal Verification of MQTT,Vikas Patel,Networks,Session 1,Day 1,10:00-10:15,Hall A,https://maps.google.com,,10:00-10:30 IST,
+2,ICCS102,Model Checking Rail Systems,A. Verma,Networks,Session 1,Day 1,10:15-10:30,Hall A,https://maps.google.com,,10:00-10:30 IST,
+3,ICCS201,AI for Smart Railways,P. Verma,AI,Session 2,Day 1,11:00-11:15,Hall B,https://maps.google.com,,11:00-11:15 IST,
+4,ICCS301,Secure IoT Messaging,R. Kumar,Security,Session 1,Day 2,10:00-10:15,Hall C,https://maps.google.com,,10:00-10:15 IST,
+5,ICCS201,AI for Smart Railways,P. Verma,Image,Session 2,Day 1,11:00-11:15,Online,https://meet.example.com,928445112,11:00-11:15 IST,"<p><strong>Platform:</strong> Google Meet</p><p><strong>Meeting ID:</strong> 928 445 112</p><p><a href='https://meet.example.com' target='_blank'>Join Meeting</a></p>"
