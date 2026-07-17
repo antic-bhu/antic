@@ -4,10 +4,10 @@
       "committeeTitle": "Patron",
       "members": [
         {
-          "name": "Prof. Sri Niwas Singh",
-          "affiliation": "ABV-Indian Institute of Information Technology and Management, Gwalior, India",
+          "name": "Dr. A. M. Sherry",
+          "affiliation": "IIIT, Lucknow, India",
           "designation": "Director",
-          "photo": "/static/img/cm/Prof.-Sri-Niwas-Singh.jpg"
+          "photo": ""
         }
       ]
     },
@@ -25,12 +25,6 @@
           "affiliation": "The University of Memphis, Memphis, USA",
           "designation": "",
           "photo": "/static/img/cm/ddg.jpg"
-        },
-        {
-          "name": "Prof. Paolo Bellavista",
-          "affiliation": "University of Bologna, Bologna, Italy",
-          "designation": "",
-          "photo": "/static/img/cm/paoloBellavista.jpg"
         }
       ]
     },
@@ -41,13 +35,13 @@
           "name": "Prof. Rajendra Sahu",
           "affiliation": "ABV-Indian Institute of Information Technology and Management, Gwalior, India",
           "designation": "",
-          "photo": "https://www.iiitm.ac.in/images/demo/teachers/1533028836_rsahu.jpg"
+          "photo": ""
         },
         {
           "name": "Prof. Anupam Shukla",
           "affiliation": "Indian Institute of Information Technology, Pune, India",
           "designation": "",
-          "photo": "https://www.iiitm.ac.in/images/demo/teachers/1533046809_anupamshukla.jpg"
+          "photo": ""
         },
         {
           "name": "Prof. Bansidhar Majhi",
@@ -95,13 +89,13 @@
           "name": "Prof. Aditya Trivedi",
           "affiliation": "ABV-Indian Institute of Information Technology and Management, Gwalior, India",
           "designation": "",
-          "photo": "https://www.iiitm.ac.in/images/demo/teachers/1533046686_atrivedi.jpg"
+          "photo": ""
         },
         {
           "name": "Prof. Mahua Bhattacharya",
           "affiliation": "ABV-Indian Institute of Information Technology and Management, Gwalior, India",
           "designation": "",
-          "photo": "https://www.iiitm.ac.in/images/demo/teachers/1533047541_mahuabhatt.jpg"
+          "photo": ""
         }
       ]
     },
@@ -126,10 +120,10 @@
       "committeeTitle": "Program Chair",
       "members": [
         {
-          "name": "Dr. Mahendra K. Shukla",
-          "affiliation": "ABV-Indian Institute of Information Technology and Management, Gwalior, India",
+          "name": "Dr. Saurabh Shukla",
+          "affiliation": "IIIT, Lucknow, India",
           "designation": "",
-          "photo": "/static/img/cm/Mahendra K. Shukla.jpg"
+          "photo": ""
         }
       ]
     },
@@ -137,10 +131,10 @@
       "committeeTitle": "Convener",
       "members": [
         {
-          "name": "Dr. Anshul Verma",
-          "affiliation": "Banaras Hindu University, Varanasi, India",
+          "name": "Dr. Rahul Kumar Verma",
+          "affiliation": "IIIT, Lucknow, India",
           "designation": "",
-          "photo": "/static/img/cm/av.jpg"
+          "photo": "/static/img/cm/Dr.-Rahul-Kr.-Verma.jpg"
         }
       ]
     },
@@ -148,184 +142,207 @@
       "committeeTitle": "Organizing Secretary",
       "members": [
         {
-          "name": "Dr. Rahul Kala",
-          "affiliation": "ABV-Indian Institute of Information Technology and Management, Gwalior, India",
+          "name": "Dr. Shubhra Jain",
+          "affiliation": "IIIT, Lucknow, India",
           "designation": "",
-          "photo": "https://www.iiitm.ac.in/images/demo/teachers/1689745249_photo2.jpg"
+          "photo": ""
         },
         {
-          "name": "Dr. Veena Anand",
-          "affiliation": "ABV-Indian Institute of Information Technology and Management, Gwalior, India",
+          "name": "Dr. Niharika Anand",
+          "affiliation": "IIIT, Lucknow, India",
           "designation": "",
-          "photo": "https://www.iiitm.ac.in/images/demo/teachers/1689744708_IMG_20211121_131358.jpg"
-        },
-        {
-          "name": "Dr. Anjali",
-          "affiliation": "ABV-Indian Institute of Information Technology and Management, Gwalior, India",
-          "designation": "",
-          "photo": "https://www.iiitm.ac.in/images/demo/teachers/1678951996_Profile_Pic.jpg"
-        },
-        {
-          "name": "Dr. Roshni Chakraborty",
-          "affiliation": "ABV-Indian Institute of Information Technology and Management, Gwalior, India",
-          "designation": "",
-          "photo": "https://www.iiitm.ac.in/images/demo/teachers/1727775325_image_roshni%20(1).JPG"
+          "photo": ""
         },
         {
           "name": "Dr. Pradeepika Verma",
-          "affiliation": "Indian Institute of Technology, Patna, India",
+          "affiliation": "Bennett University, Greater Noida, India",
           "designation": "",
           "photo": "/static/img/cm/os4.jpg"
         }
       ]
     },
     {
-      "committeeTitle": "Publication Chair",
-      "view": 4,
+      "committeeTitle": "Track Chair",
       "members": [
         {
-          "name": "Dr. Poornima Singh Thakur",
-          "affiliation": "ABV-Indian Institute of Information Technology and Management, Gwalior, India",
+          "name": "Prof. Himanshu",
+          "affiliation": "Punjabi University, Patiala, India",
           "designation": "",
-          "photo": "https://www.iiitm.ac.in/images/demo/teachers/1740486089_profile.jpg"
+          "photo": "/static/img/cm/"
         },
         {
-          "name": "Dr. Rahul Kumar Verma",
-          "affiliation": "Indian Institute of Information Technology, Lucknow, India",
+          "name": "Prof. Karm Veer Arya",
+          "affiliation": "ABV-Indian Institute of Information Technology and Management, Gwalior, India",
           "designation": "",
-          "photo": "/static/img/cm/Dr.-Rahul-Kr.-Verma.jpg"
-        }
-      ]
-    },
-    {
-      "committeeTitle": "Publicity Chair",
-      "view": 4,
-      "members": [
+          "photo": "https://www.iiitm.ac.in/images/demo/teachers/1718101905_KVARYA.jpg"
+        },
         {
-          "name": "Dr. Om Jee Pandey",
+          "name": "Prof. Madan Mohan Tripathi",
+          "affiliation": "Delhi Technological University, Delhi, India",
+          "designation": "",
+          "photo": "/static/img/cm/"
+        },
+        {
+          "name": "Prof. Nanhay Singh",
+          "affiliation": "Netaji Subhas University of Technology, New Delhi, India",
+          "designation": "",
+          "photo": "/static/img/cm/"
+        },
+        {
+          "name": "Prof. P. K. Singh",
+          "affiliation": "ABV-Indian Institute of Information Technology and Management, Gwalior, India",
+          "designation": "",
+          "photo": ""
+        },
+        {
+          "name": "Dr. Andrea Visconti",
+          "affiliation": "University of Milan, Italy",
+          "designation": "",
+          "photo": ""
+        },
+        {
+          "name": "Dr. Bhaskar Biswas",
           "affiliation": "Indian Institute of Technology (BHU), Varanasi, India",
           "designation": "",
-          "photo": "https://iitbhu.ac.in/sites/default/files/styles/medium/public/pictures/2022-11/Omjee.jpg"
+          "photo": ""
         },
         {
-          "name": "Dr. Mahendra Kumar Shukla",
-          "affiliation": "ABV-Indian Institute of Information Technology and Management, Gwalior, India",
+          "name": "Dr. Binod Kumar Singh",
+          "affiliation": "National Institute of Technology, Jamshedpur, India",
           "designation": "",
-          "photo": "https://www.iiitm.ac.in/images/demo/teachers/1677492702_PIC_Mahendra%20K.%20Shukla.jpg"
-        }
-      ]
-    },
-    {
-      "committeeTitle": "Website Chair",
-      "view": 4,
-      "members": [
-        {
-          "name": "Dr. Vijaypal Singh Rathor",
-          "affiliation": "ABV-Indian Institute of Information Technology and Management, Gwalior, India",
-          "designation": "",
-          "photo": "https://www.iiitm.ac.in/images/demo/teachers/1723455388_Vijay_Pic.jpg"
+          "photo": ""
         },
         {
-          "name": "Dr. Anjali",
+          "name": "Dr. Divakar Singh Yadav",
+          "affiliation": "National Institute of Technology, Hamirpur, India",
+          "designation": "",
+          "photo": ""
+        },
+        {
+          "name": "Dr. Lalit Garg",
+          "affiliation": "University of Malta, Malta",
+          "designation": "",
+          "photo": ""
+        },
+        {
+          "name": "Dr. Petros Nicopolitidis",
+          "affiliation": "Aristotle University of Thessaloniki, Greece",
+          "designation": "",
+          "photo": ""
+        },
+        {
+          "name": "Dr. Rakan Aldmour",
+          "affiliation": "Staffordshire University, United Kingdom",
+          "designation": "",
+          "photo": ""
+        },
+        {
+          "name": "Dr. Sukomal Pal",
+          "affiliation": "Indian Institute of Technology (BHU), Varanasi, India",
+          "designation": "",
+          "photo": "https://www.iitbhu.ac.in/sites/default/files/styles/medium/public/pictures/2022-11/Sukomal-Pal-52KB.jpg"
+        },
+        {
+          "name": "Dr. W Wilfred Godfrey",
           "affiliation": "ABV-Indian Institute of Information Technology and Management, Gwalior, India",
           "designation": "",
-          "photo": "https://www.iiitm.ac.in/images/demo/teachers/1678951996_Profile_Pic.jpg"
+          "photo": "https://www.iiitm.ac.in/images/demo/teachers/1533544986_godfrey_pic.jpg"
+        },
+        {
+          "name": "Dr. Prashant Singh Rana",
+          "affiliation": "Thapar Institute of Engineering & Technology, India",
+          "designation": "",
+          "photo": ""
+        },
+        {
+          "name": "Dr. Harish Sharma",
+          "affiliation": "Rajasthan Technical University, Kota, India",
+          "designation": "",
+          "photo": ""
+        },
+        {
+          "name": "Dr. Puneet Misra",
+          "affiliation": "University of Lucknow, India",
+          "designation": "",
+          "photo": ""
+        },
+        {
+          "name": "Dr. Sachi Nandan Mohanty",
+          "affiliation": "College of Engineering Pune, India",
+          "designation": "",
+          "photo": ""
+        },
+        {
+          "name": "Dr. Pradeepika Verma",
+          "affiliation": "Bennett University, Greater Noida, India",
+          "designation": "",
+          "photo": "/static/img/cm/os4.jpg"
         }
-      ]
+      ],
+      "view": 4
     },
     {
       "committeeTitle": "Organizing Committee",
-      "view": 4,
       "members": [
         {
-          "name": "Prof. Aditya Trivedi",
-          "affiliation": "ABV-Indian Institute of Information Technology and Management, Gwalior, India",
+          "name": "Dr. Shubhra Jain",
+          "affiliation": "IIIT, Lucknow, India",
           "designation": "",
-          "photo": "https://www.iiitm.ac.in/images/demo/teachers/1533046686_atrivedi.jpg"
+          "photo": ""
         },
         {
-          "name": "Prof. Mahua Bhattacharya",
-          "affiliation": "ABV-Indian Institute of Information Technology and Management, Gwalior, India",
+          "name": "Dr. Ankita Srivastava",
+          "affiliation": "IIIT, Lucknow, India",
           "designation": "",
-          "photo": "https://www.iiitm.ac.in/images/demo/teachers/1533047541_mahuabhatt.jpg"
+          "photo": ""
         },
         {
-          "name": "Prof. Kiran Kumar Pattanaik",
-          "affiliation": "ABV-Indian Institute of Information Technology and Management, Gwalior, India",
+          "name": "Dr. Soumendu Chakraborty",
+          "affiliation": "IIIT, Lucknow, India",
           "designation": "",
-          "photo": "/static/img/cm/gc3.jpg"
+          "photo": ""
         },
         {
-          "name": "Prof. Ritu Tiwari",
-          "affiliation": "ABV-Indian Institute of Information Technology and Management, Gwalior, India",
+          "name": "Dr. Deepak Kumar Singh",
+          "affiliation": "IIIT, Lucknow, India",
           "designation": "",
-          "photo": null
+          "photo": ""
         },
         {
-          "name": "Dr. Sunil Kumar",
-          "affiliation": "ABV-Indian Institute of Information Technology and Management, Gwalior, India",
+          "name": "Dr. Deepshikha Agarwal",
+          "affiliation": "IIIT, Lucknow, India",
           "designation": "",
-          "photo": "https://www.iiitm.ac.in/images/demo/teachers/1677819537_SNK.png"
+          "photo": ""
         },
         {
-          "name": "Dr. Mahendra Kumar Shukla",
-          "affiliation": "ABV-Indian Institute of Information Technology and Management, Gwalior, India",
+          "name": "Dr. Niharika Anand",
+          "affiliation": "IIIT, Lucknow, India",
           "designation": "",
-          "photo": "https://www.iiitm.ac.in/images/demo/teachers/1677492702_PIC_Mahendra%20K.%20Shukla.jpg"
+          "photo": ""
         },
         {
-          "name": "Dr. Anjali",
-          "affiliation": "ABV-Indian Institute of Information Technology and Management, Gwalior, India",
+          "name": "Dr. Varun Sharma",
+          "affiliation": "IIIT, Lucknow, India",
           "designation": "",
-          "photo": "https://www.iiitm.ac.in/images/demo/teachers/1678951996_Profile_Pic.jpg"
+          "photo": ""
         },
         {
-          "name": "Dr. Rahul Kala",
-          "affiliation": "ABV-Indian Institute of Information Technology and Management, Gwalior, India",
+          "name": "Dr. Madhurima Datta",
+          "affiliation": "IIIT, Lucknow, India",
           "designation": "",
-          "photo": "https://www.iiitm.ac.in/images/demo/teachers/1689745249_photo2.jpg"
+          "photo": ""
         },
         {
-          "name": "Dr. Veena Anand",
-          "affiliation": "ABV-Indian Institute of Information Technology and Management, Gwalior, India",
+          "name": "Dr. Sirsendu Shekhar Barman",
+          "affiliation": "IIIT, Lucknow, India",
           "designation": "",
-          "photo": "https://www.iiitm.ac.in/images/demo/teachers/1689744708_IMG_20211121_131358.jpg"
+          "photo": ""
         },
         {
-          "name": "Dr. Vijaypal Singh Rathor",
-          "affiliation": "ABV-Indian Institute of Information Technology and Management, Gwalior, India",
+          "name": "Dr. Saurabh Shukla",
+          "affiliation": "IIIT, Lucknow, India",
           "designation": "",
-          "photo": "https://www.iiitm.ac.in/images/demo/teachers/1723455388_Vijay_Pic.jpg"
-        },
-        {
-          "name": "Dr. Roshani Chakraborty",
-          "affiliation": "ABV-Indian Institute of Information Technology and Management, Gwalior, India",
-          "designation": "",
-          "photo": "https://www.iiitm.ac.in/images/demo/teachers/1727775325_image_roshni%20(1).JPG"
-        },
-        {
-          "name": "Dr. Poornima Singh Thakur",
-          "affiliation": "ABV-Indian Institute of Information Technology and Management, Gwalior, India",
-          "designation": "",
-          "photo": "https://www.iiitm.ac.in/images/demo/teachers/1740486089_profile.jpg"
-        },
-        {
-          "name": "Dr. Saswata Roy",
-          "affiliation": "ABV-Indian Institute of Information Technology and Management, Gwalior, India",
-          "designation": "",
-          "photo": "https://www.iiitm.ac.in/images/demo/teachers/1735813327_sroy.jpg"
-        },
-        {
-          "name": "Dr. Anshul",
-          "affiliation": "ABV-Indian Institute of Information Technology and Management, Gwalior, India",
-          "designation": "",
-          "photo": null
-        },
-        {
-          "name": "Dr. G. Bhanu Chander",
-          "affiliation": "ABV-Indian Institute of Information Technology and Management, Gwalior, India",
-          "designation": "",
-          "photo": null
+          "photo": ""
         },
         {
           "name": "Dr. Gaurav Baranwal",
@@ -351,61 +368,98 @@
           "designation": "",
           "photo": "/static/img/cm/os3.jpg"
         }
-      ]
+      ],
+      "view": 4
+    },
+    {
+      "committeeTitle": "Publication Chair",
+      "members": [
+        {
+          "name": "Dr. Sanjeev Sharma",
+          "affiliation": "Indian Institute of Information Technology, Pune, India",
+          "designation": "",
+          "photo": ""
+        },
+        {
+          "name": "Dr. Vibhav Prakash Singh",
+          "affiliation": "Motilal Nehru National Institute of Technology, Allahabad, India",
+          "designation": "",
+          "photo": ""
+        },
+        {
+          "name": "Dr. Dharmendra Prasad Mahato",
+          "affiliation": "National Institute of Technology, Hamirpur, India",
+          "designation": "",
+          "photo": ""
+        }
+      ],
+      "view": 4
+    },
+    {
+      "committeeTitle": "Publicity Chair",
+      "members": [
+        {
+          "name": "Dr. Koushlendra Kumar Singh",
+          "affiliation": "National Institute of Technology, Jamshedpur, India",
+          "designation": "",
+          "photo": ""
+        },
+        {
+          "name": "Dr. Vijay Bhaskar Semwal",
+          "affiliation": "Maulana Azad National Institute of Technology, Bhopal, India",
+          "designation": "",
+          "photo": ""
+        },
+        {
+          "name": "Dr. Bhawana Rudra",
+          "affiliation": "National Institute of Technology, Karnataka, India",
+          "designation": "",
+          "photo": ""
+        }
+      ],
+      "view": 4
     },
     {
       "committeeTitle": "Volume Editors",
-      "view": 4,
       "members": [
         {
           "name": "Dr. Anshul Verma",
-          "designation": "",
           "affiliation": "Banaras Hindu University, Varanasi, India",
-          "photo": null
+          "designation": "",
+          "photo": "/static/img/cm/av.jpg"
+        },
+        {
+          "name": "Dr. Rahul Kumar Verma",
+          "affiliation": "Indian Institute of Information Technology, Lucknow, India",
+          "designation": "",
+          "photo": "/static/img/cm/Dr.-Rahul-Kr.-Verma.jpg"
         },
         {
           "name": "Dr. Pradeepika Verma",
+          "affiliation": "Bennett University, Greater Noida, India",
           "designation": "",
-          "affiliation": "Indian Institute of Technology, Patna, India",
-          "photo": null
+          "photo": "/static/img/cm/os4.jpg"
         },
         {
           "name": "Prof. K. K. Pattanaik",
-          "designation": "",
           "affiliation": "ABV-Indian Institute of Information Technology and Management, Gwalior, India",
-          "photo": null
+          "designation": "",
+          "photo": "/static/img/cm/gc3.jpg"
         },
         {
           "name": "Prof. Rajkumar Buyya",
-          "designation": "",
           "affiliation": "The University of Melbourne, Melbourne, Australia",
-          "photo": null
+          "designation": "",
+          "photo": "/static/img/cm/ab11.jpg"
         },
         {
           "name": "Prof. Dipankar Dasgupta",
-          "designation": "",
           "affiliation": "The University of Memphis, Memphis, USA",
-          "photo": null
-        },
-        {
-          "name": "Mahendra K. Shukla",
-          "affiliation": "ABV-Indian Institute of Information Technology and Management, Gwalior, India",
           "designation": "",
-          "photo": "/static/img/cm/Mahendra K. Shukla.jpg"
+          "photo": "/static/img/cm/ddg.jpg"
         }
-      ]
-    },
-    {
-      "committeeTitle": "Web Committee",
-      "view": 4,
-      "members": [
-        {
-          "name": "Mr. Vikas Kumar Patel",
-          "designation": "",
-          "affiliation": "Banaras Hindu University, Varanasi, India",
-          "photo": "/static/img/cm/"
-        }
-      ]
+      ],
+      "view": 4
     },
     {
       "committeeTitle": "Technical Program Committee",
@@ -501,7 +555,7 @@
         },
         {
           "name": "Dr. Ali El Alami",
-          "affiliation": "University Moulay Ismail of Meknès, Morocco"
+          "affiliation": "University Moulay Ismail of Mekn\u00e8s, Morocco"
         },
         {
           "name": "Dr. Amit Kumar",
