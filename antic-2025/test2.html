@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>ANTIC Conference Schedule</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700|Raleway:400,600,800" rel="stylesheet">
+    <link href="/static/lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/static/lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+    <meta name="referrer" content="no-referrer-when-downgrade">
+    <!-- Favicons -->
+    <link href="/static/img/favicon.ico" rel="icon">
+    <link href="/static/img/logo_antic_2025.png" rel="apple-touch-icon">
+
+    <!-- Google Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Raleway:300,400,500,700,800"
+        rel="stylesheet">
+
+    <!-- Bootstrap CSS File -->
+    <link href="/static/lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Libraries CSS Files -->
+    <link href="/static/lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="/static/lib/animate/animate.min.css" rel="stylesheet">
+    <link href="/static/lib/venobox/venobox.css" rel="stylesheet">
+    <link href="/static/lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Main Stylesheet File -->
+    <link href="/static/css/style.css" rel="stylesheet">
+    <link href="/static/css/dropdown.css" rel="stylesheet">
+    <link href="/static/css/photocard.css" rel="stylesheet">
+
+    <script defer src="https://analytics.hivanix.in/script.js" data-website-id="af169ce5-ae56-4f72-9103-c7191dff26aa"
+        data-auto-track="true"></script>
+
+    <style>
+        body {
+            font-family: 'Open Sans', sans-serif;
+            background: #fff;
+            color: #1f2933
+        }
+
+        h1,
+        h2,
+        h3 {
+            font-family: 'Raleway', sans-serif
+        }
+
+        .header {
+            text-align: center;
+            padding: 40px 15px;
+            border-bottom: 4px solid #003366
+        }
+
+        .header h1 {
+            font-weight: 800;
+            color: #003366
+        }
+
+        .search-box {
+            max-width: 360px;
+            margin: 20px auto 0
+        }
+
+        .day-title {
+            font-size: 1.6rem;
+            font-weight: 800;
+            color: #003366;
+            border-bottom: 2px solid #003366;
+            margin: 40px 0 15px
+        }
+
+        .track-title {
+            font-size: 1.2rem;
+            font-weight: 700;
+            color: #0056a3;
+            margin-top: 25px
+        }
+
+        .session-card {
+            border: 1px solid #d9e1ea;
+            border-radius: 6px;
+            margin-top: 15px
+        }
+
+        .session-header {
+            background: #f4f8fb;
+            padding: 12px 15px;
+            font-weight: 600
+        }
+
+        .paper {
+            padding: 12px 15px;
+            border-top: 1px solid #eef2f6
+        }
+
+        .paper-id {
+            font-weight: 700;
+            color: #0b6b3a
+        }
+
+        .modal-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, .55);
+            display: none;
+            align-items: center;
+            justify-content: center;
+            z-index: 9999
+        }
+
+        .modal-box {
+            background: #fff;
+            max-width: 420px;
+            width: 90%;
+            border-radius: 6px;
+            padding: 20px;
+            text-align: center;
+            position: relative
+        }
+
+        .modal-box img {
+            max-width: 200px;
+            margin-bottom: 15px
+        }
+
+        .close-btn {
+            position: absolute;
+            top: 15px;
+            right: 20px;
+            font-size: 24px;
+            cursor: pointer
+        }
+
+        @media(max-width:768px) {
+            .day-title {
+                font-size: 1.3rem
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!--==========================
+  Header-Desktop
+============================-->
+    <div id="c-desk">
+        <header id="header">
+            <div class="container">
+                <div id="logo" class="pull-left">
+                    <a href="#" class="scrollto"><img src="/static/img/logo_antic_2025.png" alt="" title=""></a>
+                </div>
+                <nav id="nav-menu-container">
+                    <ul class="nav-menu">
+                        <li><a href="/index.html" onclick="umami.track('menu_home')">Home</a></li>
+                        <li class="menu-active"><a href="#presentation-schedule"
+                                onclick="umami.track('menu_presentation-schedule')">Presentation Schedule</a></li>
+                    </ul>
+                </nav><!-- #nav-menu-container -->
+            </div>
+        </header><!-- #header -->
+    </div>
+
+    <!--==========================
+  Header-Cell
+===========================-->
+    <div id="c-cell">
+        <header id="header">
+            <div class="container">
+                <div id="logo" class="pull-left">
+                    <a href="#" class="scrollto"><img src="/static/img/logo_antic_2025.png" alt=""></a>
+                </div>
+            </div>
+            <nav id="nav-menu-container" style="padding-right: 5px;">
+                <ul class="nav-menu">
+                    <li><a href="/index.html"><i class="fa fa-home" aria-hidden="true"></i></a></li>
+                    <li class="menu-active"><a href="#presentation-schedule"
+                            onclick="umami.track('menu_presentation-schedule')"><i class="fa fa-info"></i></a></li>
+                </ul>
+            </nav>
+        </header>
+    </div>
+    <!--==========================
+  Intro Section
+============================-->
+    <section id="intro">
+        <div class="intro-container wow fadeIn">
+            <h1 class="mb-1 pb-0">5<sup style="text-transform: none;">th</sup> International Conference
+                on<br><span>Advanced
+                    Network Technologies</span><br>and<br><span>Intelligent Computing</span></h1>
+            <p class="mb-1 pb-0">21 - 23 DECEMBER, 2025</p>
+            <p class="mb-1 pb-0" style="border-bottom: solid 2px #3ba3b5;">ORGANIZED BY</p>
+            <p class="mb-0 pb-0">DEPARTMENT OF INFORMATION TECHNOLOGY</p>
+            <p class="mb-1 pb-0" style="font-size: 14px;">ATAL BIHARI VAJPAYEE<br> INDIAN INSTITUTE OF INFORMATION
+                TECHNOLOGY
+                AND MANAGEMENT, GWALIOR, INDIA
+            </p>
+            <div id="c-desk">
+                <div
+                    style="align-items: center;background: rgba(255, 255, 255, 0.25); flex: 0 0 auto; border:2px solid #000d16; border-radius: 60px; padding: 3px;">
+                    <img src="/static/img/iiitmgwalior_logo.png" style="padding:0px 0px 0px 50px; height: 90px;" alt="">
+                    <img src="/static/img/partner2.png" style="padding:5px 50px 5px 50px; height: 70px;" alt="">
+                    <img src="/static/img/partner1.jpg" style="padding:5px 0px 5px 0px; height: 70px;" alt="">
+                    <img src="/static/img/partner3.png" style="padding:5px 50px 5px 50px; height: 70px;" alt="">
+                </div>
+            </div>
+
+
+            <div id="c-cell">
+                <div
+                    style="align-items: center;background: rgba(255, 255, 255, 0.6); flex: 0 0 auto; border:2px solid #000d16; border-radius: 50px; padding: 10px;">
+                    <img src="/static/img/iiitmgwalior_logo.png" style="padding:5px; height: 40px;" alt="">
+                    <img src="/static/img/partner2.png" style="padding:5px; height: 40px;" alt="">
+                    <img src="/static/img/partner1.jpg" style="padding:5px; height: 40px;" alt="">
+                    <img src="/static/img/partner3.png" style="padding:5px; height: 40px;" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <main id="main">
+        <section id="venue">
+            <div class="container">
+                <div class="header">
+                    <h1>Presentation Schedule</h1>
+                    <input id="searchInput" class="form-control search-box" placeholder="Search by Paper ID">
+                </div>
+                <div id="scheduleContainer"></div>
+            </div>
+
+            <div class="modal-overlay" id="onlineModal">
+                <div class="modal-box">
+                    <span class="close-btn" onclick="closeModal()">&times;</span>
+                    <h5>Online Session Details</h5>
+                    <div id="meetingDetails"></div>
+                    <img id="qrCode">
+                    <a id="meetingLink" class="btn btn-primary mt-2" target="_blank">Join Meeting</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <div id="contacts">
+        <div id="footer-container"></div>
+    </div>
+
+    <script>
+        fetch('/footer.html')
+            .then(r => r.text())
+            .then(h => document.getElementById('footer-container').innerHTML = h)
+
+        fetch('schedule.csv')
+            .then(r => r.text())
+            .then(t => {
+                const rows = t.trim().split('\n').slice(1)
+                const data = {}
+
+                rows.forEach(r => {
+                    const [
+                        serial, pid, title, authors,
+                        track, session, day, paperTime,
+                        venue, venueLink, meetingId,
+                        sessionTime, meetingDetails
+                    ] = r.split(',')
+
+                    data[day] ??= {}
+                    data[day][track] ??= {}
+                    data[day][track][session] ??= {
+                        venue,
+                        venueLink,
+                        meetingId,
+                        sessionTime,
+                        meetingDetails,
+                        papers: []
+                    }
+
+                    data[day][track][session].papers.push({
+                        pid, title, authors, paperTime
+                    })
+                })
+
+                render(data)
+                if (window.umami) umami.track('page_engagement')
+            })
+
+        function render(data) {
+            const c = document.getElementById('scheduleContainer')
+            c.innerHTML = ''
+
+            Object.entries(data).forEach(([day, tracks]) => {
+                let html = `<div class="day-title">${day}</div>`
+
+                Object.entries(tracks).forEach(([track, sessions]) => {
+                    html += `<div class="track-title">${track}</div>`
+
+                    Object.entries(sessions).forEach(([session, s]) => {
+                        html += `
+        <div class="session-card" data-track="${track}" data-session="${session}">
+          <div class="session-header">
+            ${session}<br>
+            <small>${s.sessionTime || ''}</small><br>
+            ${s.venue === 'Online'
+                                ? `<button class="btn btn-sm btn-outline-primary mt-2 join-online-btn"
+                   data-link="${s.venueLink || ''}"
+                   data-meeting="${s.meetingId || ''}"
+                   data-details="${encodeURIComponent(s.meetingDetails || '')}">
+                   Join Online
+                 </button>`
+                                : `Venue: <a href="${s.venueLink || '#'}" target="_blank">${s.venue}</a>`
+                            }
+          </div>`
+
+                        s.papers.forEach(p => {
+                            html += `
+          <div class="paper">
+            <span class="paper-id">${p.pid}</span> —
+            <strong>${p.title}</strong><br>
+            <small>${p.authors}</small><br>
+            <i class="fa fa-clock-o"></i> ${p.paperTime}
+          </div>`
+                        })
+
+                        html += `</div>`
+                    })
+                })
+
+                c.innerHTML += html
+            })
+
+            observeSessions()
+        }
+
+        document.addEventListener('click', e => {
+            const btn = e.target.closest('.join-online-btn')
+            if (!btn) return
+
+            const link = btn.dataset.link
+            const meetingId = btn.dataset.meeting
+            const details = decodeURIComponent(btn.dataset.details || '')
+
+            openModal(link, meetingId, details)
+        })
+
+        function openModal(link, meetingId, details) {
+            document.getElementById('meetingDetails').innerHTML = details || ''
+            document.getElementById('meetingLink').href = link || '#'
+            document.getElementById('qrCode').src =
+                'https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=' +
+                encodeURIComponent(link || '')
+            document.getElementById('onlineModal').style.display = 'flex'
+
+            if (window.umami) umami.track('join_online', { meeting: meetingId || 'unknown' })
+        }
+
+        function closeModal() {
+            document.getElementById('onlineModal').style.display = 'none'
+        }
+
+        document.getElementById('onlineModal').addEventListener('click', e => {
+            if (e.target.id === 'onlineModal') closeModal()
+        })
+
+        document.addEventListener('keydown', e => {
+            if (e.key === 'Escape') closeModal()
+        })
+
+        let searchTimer
+        document.getElementById('searchInput').addEventListener('input', e => {
+            clearTimeout(searchTimer)
+            const q = e.target.value.toLowerCase()
+
+            document.querySelectorAll('.paper').forEach(p => {
+                p.style.display = p.innerText.toLowerCase().includes(q) ? '' : 'none'
+            })
+
+            searchTimer = setTimeout(() => {
+                if (q && window.umami) umami.track('paper_search', { paper_id: q })
+            }, 600)
+        })
+
+        document.addEventListener('click', e => {
+            if (window.umami) umami.track('click', { tag: e.target.tagName })
+        })
+
+        let dragging = false
+        document.addEventListener('mousedown', () => dragging = true)
+        document.addEventListener('mouseup', () => dragging = false)
+        document.addEventListener('mousemove', () => {
+            if (dragging && window.umami) {
+                umami.track('drag')
+                dragging = false
+            }
+        })
+
+        function observeSessions() {
+            const obs = new IntersectionObserver(entries => {
+                entries.forEach(en => {
+                    if (en.isIntersecting && window.umami) {
+                        umami.track('session_view', {
+                            track: en.target.dataset.track,
+                            session: en.target.dataset.session
+                        })
+                        obs.unobserve(en.target)
+                    }
+                })
+            }, { threshold: 0.4 })
+
+            document.querySelectorAll('.session-card').forEach(s => obs.observe(s))
+        }
+    </script>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="/static/lib/jquery/jquery.min.js"></script>
+    <script src="/static/lib/jquery/jquery-migrate.min.js"></script>
+    <script src="/static/lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="/static/lib/easing/easing.min.js"></script>
+    <script src="/static/lib/superfish/hoverIntent.js"></script>
+    <script src="/static/lib/superfish/superfish.min.js"></script>
+    <script src="/static/lib/wow/wow.min.js"></script>
+    <script src="/static/lib/venobox/venobox.min.js"></script>
+    <script src="/static/lib/owlcarousel/owl.carousel.min.js"></script>
+    <script>
+        function myFunction() {
+            var moreText = document.getElementById("readmore");
+            var btnText = document.getElementById("myBtn");
+
+            if (dots.style.display === "none") {
+                dots.style.display = "inline";
+                btnText.innerHTML = "Read More";
+                moreText.style.display = "none";
+            } else {
+                dots.style.display = "none";
+                btnText.innerHTML = "Read Less";
+                moreText.style.display = "inline";
+            }
+        }
+    </script>
+    <!-- Contact Form JavaScript File -->
+    <script src="/static/contactform/contactform.js"></script>
+
+    <!-- Template Main Javascript File -->
+    <script src="/static/js/main.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,39 @@
+[
+  {
+    "id": 1,
+    "tag": "meta",
+    "attributes": {
+      "charset": "utf-8"
+    }
+  },
+  {
+    "id": 2,
+    "tag": "title",
+    "content": "ANTIC 2025 — International Conference on Advanced Network Technologies and Intelligent Computing"
+  },
+  {
+    "id": 3,
+    "tag": "meta",
+    "attributes": {
+      "name": "viewport",
+      "content": "width=device-width, initial-scale=1.0"
+    }
+  },
+  {
+    "id": 4,
+    "tag": "link",
+    "attributes": {
+      "rel": "icon",
+      "href": "/static/img/favicon.ico"
+    }
+  },
+  {
+    "id": 5,
+    "tag": "script",
+    "attributes": {
+      "defer": true,
+      "src": "https://analytics.thetraveldelight.com/script.js",
+      "data-website-id": "a451a956-8f95-4145-b934-ad0063778f06"
+    }
+  }
+]

@@ -1,0 +1,1398 @@
+{
+  "committees": [
+    {
+      "committeeTitle": "Chief Patron1",
+      "members": [
+        {
+          "name": "Prof. Sudhir K. Jain",
+          "designation": "Vice-Chancellor",
+          "affiliation": "Banaras Hindu University, Varanasi, India",
+          "photo": "/static/img/cm/cp.jpg"
+        }
+      ]
+    },
+    {
+      "committeeTitle": "Patron",
+      "members": [
+        {
+          "name": "Prof. Arun Kumar Singh",
+          "designation": "Registrar",
+          "affiliation": "Banaras Hindu University, Varanasi, India",
+          "photo": "/static/img/cm/ArunKumarSingh.jpg"
+        }
+      ]
+    },
+    {
+      "committeeTitle": "Co-Patron",
+      "members": [
+        {
+          "name": "Prof. Sanjay Kumar",
+          "designation": "Director, Institute of Science",
+          "affiliation": "Banaras Hindu University, Varanasi, India",
+          "photo": "/static/img/cm/prof_sanjay_kumar.jpeg"
+        },
+        {
+          "name": "Prof. Sukh Mahendra Singh",
+          "designation": "Dean, Faculty of Science",
+          "affiliation": "Banaras Hindu University, Varanasi, India",
+          "photo": "/static/img/cm/dean_sm_singh.jpg"
+        }
+      ]
+    },
+    {
+      "committeeTitle": "Advisory Board",
+      "members": [
+        {
+          "name": "Prof. Anil Kumar Tripathi",
+          "designation": "",
+          "affiliation": "IIT (BHU), Varanasi, India",
+          "photo": "/static/img/cm/ab1.jpg"
+        },
+        {
+          "name": "Prof. Bansidhar Majhi",
+          "designation": "Vice Chancellor",
+          "affiliation": "VSSUT Burla, Sambalpur, India",
+          "photo": "/static/img/cm/ab3.jpg"
+        }
+      ]
+    },
+    {
+      "committeeTitle": "Honorary Chair",
+      "members": [
+        {
+          "name": "Prof. Dipankar Dasgupta",
+          "designation": "",
+          "affiliation": "The University of Memphis, USA",
+          "photo": "/static/img/cm/ddg.jpg"
+        },
+        {
+          "name": "Prof. Rajkumar Buyya",
+          "designation": "",
+          "affiliation": "The University of Melbourne, Australia",
+          "photo": "/static/img/cm/ab11.jpg"
+        }
+      ]
+    },
+    {
+      "committeeTitle": "General Chair",
+      "members": [
+        {
+          "name": "Dr. Anshul Verma",
+          "designation": "",
+          "affiliation": "Banaras Hindu University, Varanasi, India",
+          "photo": "/static/img/cm/av.jpg"
+        },
+        {
+          "name": "Dr. K. K. Pattanaik",
+          "designation": "",
+          "affiliation": "ABV-IIITM, Gwalior, India",
+          "photo": "/static/img/cm/gc3.jpg"
+        }
+      ]
+    },
+    {
+      "committeeTitle": "Conference Chair",
+      "members": [
+        {
+          "name": "Prof. S. Karthikeyan",
+          "designation": "HoD",
+          "affiliation": "Banaras Hindu University, Varanasi, India",
+          "photo": "/static/img/cm/pc1.jpg"
+        }
+      ]
+    },
+    {
+      "committeeTitle": "Program Chair",
+      "members": [
+        {
+          "name": "Prof. Pramod Kumar Mishra",
+          "designation": "",
+          "affiliation": "Banaras Hindu University, Varanasi, India",
+          "photo": "/static/img/cm/pc2.jpg"
+        }
+      ]
+    },
+    {
+      "committeeTitle": "Convener",
+      "members": [
+        {
+          "name": "Dr. Anshul Verma",
+          "designation": "",
+          "affiliation": "Banaras Hindu University, Varanasi, India",
+          "photo": "/static/img/cm/av.jpg"
+        }
+      ]
+    },
+    {
+      "committeeTitle": "Organizing Secretary",
+      "members": [
+        {
+          "name": "Dr. Ankita Vaish",
+          "designation": "",
+          "affiliation": "Banaras Hindu University, Varanasi, India",
+          "photo": "/static/img/cm/os2.jpg"
+        },
+        {
+          "name": "Dr. Gaurav Baranwal",
+          "designation": "",
+          "affiliation": "Banaras Hindu University, Varanasi, India",
+          "photo": "/static/img/cm/os1.jpg"
+        }
+      ]
+    },
+    {
+      "committeeTitle": "Organizing Committee",
+      "view": 2,
+      "members": [
+        {
+          "name": "Prof. Vivek Singh",
+          "designation": "",
+          "affiliation": "University of Delhi, Delhi, India"
+        },
+        {
+          "name": "Dr. Achintya Singhal",
+          "designation": "",
+          "affiliation": "RGSC, Banaras Hindu University, Varanasi, India"
+        },
+        {
+          "name": "Dr. Awadhesh Kumar",
+          "designation": "",
+          "affiliation": "MMV, Banaras Hindu University, Varanasi, India"
+        },
+        {
+          "name": "Dr. Manjari Gupta",
+          "designation": "",
+          "affiliation": "Banaras Hindu University, Varanasi, India"
+        },
+        {
+          "name": "Dr. Manoj Kumar Singh",
+          "designation": "",
+          "affiliation": "Banaras Hindu University, Varanasi, India"
+        },
+        {
+          "name": "Dr. Manoj Mishra",
+          "designation": "",
+          "affiliation": "RGSC, Banaras Hindu University, Varanasi, India"
+        },
+        {
+          "name": "Dr. Rakhi Garg",
+          "designation": "",
+          "affiliation": "MMV, Banaras Hindu University, Varanasi, India"
+        },
+        {
+          "name": "Dr. S. Suresh",
+          "designation": "",
+          "affiliation": "NIT Kurukshetra, Haryana, India"
+        },
+        {
+          "name": "Dr. Sarvesh Pandey",
+          "designation": "",
+          "affiliation": "MMV, Banaras Hindu University, Varanasi, India"
+        },
+        {
+          "name": "Dr. Vandana Kushwaha",
+          "designation": "",
+          "affiliation": "Banaras Hindu University, Varanasi, India"
+        },
+        {
+          "name": "Dr. Vibhor Kant",
+          "designation": "",
+          "affiliation": "RGSC, Banaras Hindu University, Varanasi, India"
+        }
+      ]
+    },
+    {
+      "committeeTitle": "Web Committee",
+      "view": 2,
+      "members": [
+        {
+          "name": "Mr. Adamya Shyam",
+          "designation": "",
+          "affiliation": "University of Delhi, New Delhi, India"
+        },
+        {
+          "name": "Mr. Vikas Kumar Patel",
+          "designation": "",
+          "affiliation": "Banaras Hindu University, Varanasi, India"
+        }
+      ]
+    },
+    {
+      "committeeTitle": "Volume Editor",
+      "view": 2,
+      "members": [
+        {
+          "name": "Prof. Dipankar Dasgupta",
+          "designation": "",
+          "affiliation": "The University of Memphis, USA"
+        },
+        {
+          "name": "Prof. Rajkumar Buyya",
+          "designation": "",
+          "affiliation": "The University of Melbourne, Australia"
+        },
+        {
+          "name": "Dr. Anshul Verma",
+          "designation": "",
+          "affiliation": "Banaras Hindu University, Varanasi, India"
+        },
+        {
+          "name": "Dr. K. K. Pattanaik",
+          "designation": "",
+          "affiliation": "ABV-IIITM, Gwalior, India"
+        },
+        {
+          "name": "Dr. Pradeepika Verma",
+          "designation": "",
+          "affiliation": "Indian Institute of Technology, Patna, India"
+        }
+      ]
+    },
+    {
+      "committeeTitle": "Technical Program Committee",
+      "view": 3,
+      "members": [
+        {
+          "name": "Prof. Anjana Jain",
+          "affiliation": "Shri G. S. Institute of Technology and Science, Indore, India"
+        },
+        {
+          "name": "Prof. Diwakar Bhardwaj",
+          "affiliation": "GLA University, Mathura, India"
+        },
+        {
+          "name": "Prof. K. Ramachandra Rao",
+          "affiliation": "Shri Vishnu Engineering College for Women, Bhimavaram, A.P., India"
+        },
+        {
+          "name": "Prof. Mamta Dahiya",
+          "affiliation": "FEAT, SGT University, Gurugram, Haryana, India"
+        },
+        {
+          "name": "Prof. Muhammad Sajjadur Rahim",
+          "affiliation": "University of Rajshahi, Bangladesh"
+        },
+        {
+          "name": "Prof. Satyadhyan Chickerur",
+          "affiliation": "KLE Technological University, Hubballi, India"
+        },
+        {
+          "name": "Dr. A Senthil Thilak",
+          "affiliation": "National Institute of Technology, Surathkal, India"
+        },
+        {
+          "name": "Dr. Abdus Samad",
+          "affiliation": "Aligarh Muslim University, Aligarh, India"
+        },
+        {
+          "name": "Dr. Abhay Kumar Rai",
+          "affiliation": "Banasthali Vidyapith, Rajasthan, India"
+        },
+        {
+          "name": "Dr. Abhilasha Sharma",
+          "affiliation": "Delhi Technological University, Delhi, India"
+        },
+        {
+          "name": "Dr. Ade Romadhony",
+          "affiliation": "Telkom University, Indonesia"
+        },
+        {
+          "name": "Dr. Afifa Ghenai",
+          "affiliation": "Constantine 2 University, Algeria"
+        },
+        {
+          "name": "Dr. Ajay",
+          "affiliation": "Shree Guru Gobind Singh Tricentenary University, Gurgaon, India"
+        },
+        {
+          "name": "Dr. Ajay Kumar",
+          "affiliation": "Central University of Himanchal Pradesh, India"
+        },
+        {
+          "name": "Dr. Ajay Kumar",
+          "affiliation": "Gopal Narayan Singh University, Jamuhar, Bihar, India"
+        },
+        {
+          "name": "Dr. Ajay Kumar",
+          "affiliation": "Central University of Himanchal Pradesh, India"
+        },
+        {
+          "name": "Dr. Ajay Kumar Gupta",
+          "affiliation": "Madan Mohan Malaviya University of Technology, Gorakhpur, India"
+        },
+        {
+          "name": "Dr. Ajay Kumar Yadav",
+          "affiliation": "Banasthali Vidyapith, Rajasthan, India"
+        },
+        {
+          "name": "Dr. Ajay Pratap",
+          "affiliation": "Indian Institute of Technology (BHU), Varanasi, India"
+        },
+        {
+          "name": "Dr. Ajay Pratap",
+          "affiliation": "Indian Institute of Technology (BHU), Varanasi, India"
+        },
+        {
+          "name": "Dr. Akande Noah Oluwatobi",
+          "affiliation": "Landmark University, Kwara State, Nigeria"
+        },
+        {
+          "name": "Dr. Akash Kumar Bhoi",
+          "affiliation": "KIET Group of Institutions & Sikkim Manipal University, India"
+        },
+        {
+          "name": "Dr. Alberto Rossi",
+          "affiliation": "University of Florence, Italy"
+        },
+        {
+          "name": "Dr. Aleena Swetapadma",
+          "affiliation": "Kalinga Institute of Industrial Technology, Bhubaneswar, India"
+        },
+        {
+          "name": "Dr. Aleena Swetapadma",
+          "affiliation": "Kalinga Institute of Industrial Technology, Bhubaneswar, India"
+        },
+        {
+          "name": "Dr. Ali El Alami",
+          "affiliation": "University Moulay Ismail of Meknès, Morocco"
+        },
+        {
+          "name": "Dr. Amit Kumar",
+          "affiliation": "BMS Institute of Technology and Management, India"
+        },
+        {
+          "name": "Dr. Amit Kumar",
+          "affiliation": "Jaypee University of Engineering and Technology, Guna, Madhya Pradesh, India"
+        },
+        {
+          "name": "Dr. Amit Kumar Mishra",
+          "affiliation": "Jain University, Bangalore, Karnataka, India"
+        },
+        {
+          "name": "Dr. Amit Rathee",
+          "affiliation": "Government College Barota, Sonipat, Haryana, India"
+        },
+        {
+          "name": "Dr. Angel D",
+          "affiliation": "Sathyabama Institute of Science and Technology, Chennai, India"
+        },
+        {
+          "name": "Dr. Anil Kumar",
+          "affiliation": "London Metropolitan University, United Kingdom"
+        },
+        {
+          "name": "Dr. Anil Kumar",
+          "affiliation": "London Metropolitan University, United Kingdom"
+        },
+        {
+          "name": "Dr. Anirban Sengupta",
+          "affiliation": "Centre for Distributed Computing, Jadavpur University, India"
+        },
+        {
+          "name": "Dr. Anita Chaware",
+          "affiliation": "SNDT Womens University, Mumbai, India"
+        },
+        {
+          "name": "Dr. Anjali Shrikant Yeole",
+          "affiliation": "VES Institute of Technology, Mumbai, India"
+        },
+        {
+          "name": "Dr. Anjula Mehto",
+          "affiliation": "Thapar Institute of Engineering and Technology, Patiala, Punjab, India"
+        },
+        {
+          "name": "Dr. Ankur Jain",
+          "affiliation": "Indira Gandhi Delhi Technical University for Women, Delhi, India"
+        },
+        {
+          "name": "Dr. Ansuman Mahapatra",
+          "affiliation": "National Institute of Technology, Puducherry, India"
+        },
+        {
+          "name": "Dr. Ansuman Mahapatra",
+          "affiliation": "National Institute of Technology, Puducherry, India"
+        },
+        {
+          "name": "Dr. Antriksh Goswami",
+          "affiliation": "Indian Institute of Information Technology, Vadodara, India"
+        },
+        {
+          "name": "Dr. Antriksh Goswami",
+          "affiliation": "Indian Institute of Information Technology, Vadodara, India"
+        },
+        {
+          "name": "Dr. Anupam Biswas",
+          "affiliation": "National Institute of Technology, Silchar, India"
+        },
+        {
+          "name": "Dr. Anupam Biswas",
+          "affiliation": "National Institute of Technology, Silchar, India"
+        },
+        {
+          "name": "Dr. Anuradha Yarlagadda",
+          "affiliation": "Gayatri Vidhya Parishad College of Engineering, India"
+        },
+        {
+          "name": "Dr. Anurag Sewak",
+          "affiliation": "Rajkiya Engineering College, Sonbhadra, India"
+        },
+        {
+          "name": "Dr. Anurag Sewak",
+          "affiliation": "Rajkiya Engineering College, Sonbhadra, India"
+        },
+        {
+          "name": "Dr. Anurag Singh Tomar",
+          "affiliation": "Amity University Madhya Pradesh, Gwalior"
+        },
+        {
+          "name": "Dr. Arun Kumar",
+          "affiliation": "ABV-Indian Institute of Information Technology and Management, Gwalior, India"
+        },
+        {
+          "name": "Dr. Arun Kumar",
+          "affiliation": "ABV-Indian Institute of Information Technology and Management, Gwalior, India"
+        },
+        {
+          "name": "Dr. Arun Pandian J",
+          "affiliation": "Vel Tech Rangarajan Dr. Sagunthala R&D Institute of Science and Technology, India"
+        },
+        {
+          "name": "Dr. Ashish Kumar Mishra",
+          "affiliation": "Rajkiya Engineering College, Ambedkar Nagar, India"
+        },
+        {
+          "name": "Dr. Ashutosh Kumar Singh",
+          "affiliation": "United College of Engineering and Research, Allahabad, India"
+        },
+        {
+          "name": "Dr. Ashutosh Kumar Singh",
+          "affiliation": "United College of Engineering and Research, Prayagraj, India"
+        },
+        {
+          "name": "Dr. Aymen Jaber Salman",
+          "affiliation": "College of Engineering, Al-Nahrain University, Baghdad"
+        },
+        {
+          "name": "Dr. B. Surendiran",
+          "affiliation": "National Institute of Technology, Puducherry, India"
+        },
+        {
+          "name": "Dr. B.Arthi",
+          "affiliation": "SRM Institute of Science and Technology, KTR, India"
+        },
+        {
+          "name": "Dr. B.S. Charulatha",
+          "affiliation": "Rajalakshmi Engineering College, India"
+        },
+        {
+          "name": "Dr. Balbir Singh Awana",
+          "affiliation": "Vanderbilt University, USA"
+        },
+        {
+          "name": "Dr. Balbir Singh Awana",
+          "affiliation": "Vanderbilt University, USA"
+        },
+        {
+          "name": "Dr. Baranidharan B",
+          "affiliation": "SRM Institute of Science and Technology, India"
+        },
+        {
+          "name": "Dr. Benyamin Ahmadnia",
+          "affiliation": "Harvard University, United States"
+        },
+        {
+          "name": "Dr. Bharat Garg",
+          "affiliation": "Thapar Institute of Engineering & Technology, Patiala, India"
+        },
+        {
+          "name": "Dr. Bharti",
+          "affiliation": "University of Delhi, Delhi, India"
+        },
+        {
+          "name": "Dr. Bhaskar Mondal",
+          "affiliation": "National Institute of Technology, Patna, India"
+        },
+        {
+          "name": "Dr. Bhaskar Mondal",
+          "affiliation": "National Institute of Technology, Patna, India"
+        },
+        {
+          "name": "Dr. Bhawana Rudra",
+          "affiliation": "National Institute of Technology, Karnataka, India"
+        },
+        {
+          "name": "Dr. Bhoopendra Pachauri",
+          "affiliation": "Manipal University, Jaipur, India"
+        },
+        {
+          "name": "Dr. Binod Prasad",
+          "affiliation": "ABV-Indian Institute of Information Technology and Management, Gwalior, India"
+        },
+        {
+          "name": "Dr. Binod Prasad",
+          "affiliation": "ABV-Indian Institute of Information Technology and Management, Gwalior, India"
+        },
+        {
+          "name": "Dr. Bishwajeet Pandey",
+          "affiliation": "Gran Sasso Science Institute, Italy"
+        },
+        {
+          "name": "Dr. Boddepalli Santhi Bhushan",
+          "affiliation": "Indian Institute of Information Technology, Allahabad, India"
+        },
+        {
+          "name": "Dr. Boddepalli Santhi Bhushan",
+          "affiliation": "Indian Institute of Information Technology, Allahabad, India/a>"
+        },
+        {
+          "name": "Dr. Brijendra Singh",
+          "affiliation": "VIT Vellore, India"
+        },
+        {
+          "name": "Dr. Carlos Borrego Iglesias",
+          "affiliation": "University of Barcelona, Spain"
+        },
+        {
+          "name": "Dr. Chanda Thapliyal Nautiyal",
+          "affiliation": "DU Govt. Degree College, Narendra Nagar, Uttarakhand, India"
+        },
+        {
+          "name": "Dr. Chandrashekhar Azad",
+          "affiliation": "National Institute of Technology, Jamshedpur, India"
+        },
+        {
+          "name": "Dr. Chandrashekhar Azad",
+          "affiliation": "National Institute of Technology, Jamshedpur, India"
+        },
+        {
+          "name": "Dr. Chetan Vyas",
+          "affiliation": "United University, Prayagraj, India"
+        },
+        {
+          "name": "Dr. Chittaranjan Pradhan",
+          "affiliation": "Kalinga Institute of Industrial Technology, Bhubaneswar, India"
+        },
+        {
+          "name": "Dr. Chittaranjan Pradhan",
+          "affiliation": "Kalinga Institute of Industrial Technology, Bhubaneswar, India"
+        },
+        {
+          "name": "Dr. D. Senthilkumar",
+          "affiliation": "University College of Engineering, Anna University, Tiruchirappalli, India"
+        },
+        {
+          "name": "Dr. Daehyeon Baek",
+          "affiliation": "Korea Advanced Institute of Science and Technology, Republic of Korea"
+        },
+        {
+          "name": "Dr. Dahmouni Abdellatif",
+          "affiliation": "Chouaib Doukkali University, Faculty of Sciences of El Jadida, Morocco"
+        },
+        {
+          "name": "Dr. Darpan Anand",
+          "affiliation": "Chandigarh University, India"
+        },
+        {
+          "name": "Dr. Debanjan Sadhya",
+          "affiliation": "ABV-Indian Institute of Information Technology and Management, Gwalior, India"
+        },
+        {
+          "name": "Dr. Deepak Kumar",
+          "affiliation": "Banasthali Vidyapith, Rajasthan, India"
+        },
+        {
+          "name": "Dr. Dharmendra Prasad Mahato",
+          "affiliation": "National Institute of Technology, Hamirpur, India"
+        },
+        {
+          "name": "Dr. Dharmveer Kumar Yadav",
+          "affiliation": "Katihar Engineering College, Katihar, India"
+        },
+        {
+          "name": "Dr. Dhirendra Kumar",
+          "affiliation": "Delhi Technological University, Delhi, India"
+        },
+        {
+          "name": "Dr. Dilip Kumar",
+          "affiliation": "National Institute of Technology, Jamshedpur, India"
+        },
+        {
+          "name": "Dr. Dinesh Kumar",
+          "affiliation": "Motilal Nehru National Institute of Technology Allahabad, Prayagraj, India"
+        },
+        {
+          "name": "Dr. Divya Saxena",
+          "affiliation": "The Hong Kong Polytechnic University, Hong Kong"
+        },
+        {
+          "name": "Dr. Divya Saxena",
+          "affiliation": "The Hong Kong Polytechnic University, Hong Kong"
+        },
+        {
+          "name": "Dr. Ezil Sam Leni A",
+          "affiliation": "KCG College of Technology, Chennai, India"
+        },
+        {
+          "name": "Dr. Gargi Srivastava",
+          "affiliation": "Rajiv Gandhi Institute of Petroleum Technology, Amethi, India"
+        },
+        {
+          "name": "Dr. Gaurav Gupta",
+          "affiliation": "Shoolini University, Solan, Himachal Pradesh, India"
+        },
+        {
+          "name": "Dr. Gyanendra K. Verma",
+          "affiliation": "National Institute of Technology, Kurukshetra, India"
+        },
+        {
+          "name": "Dr. Gyanendra K. Verma",
+          "affiliation": "National Institute of Technology, Kurukshetra, India"
+        },
+        {
+          "name": "Dr. Hardeo Kumar Thakur",
+          "affiliation": "Manav Rachna University, Faridabad, India"
+        },
+        {
+          "name": "Dr. Harish Sharma",
+          "affiliation": "Rajasthan Technical University, Kota, India"
+        },
+        {
+          "name": "Dr. Hasmat Malik",
+          "affiliation": "Universiti Teknologi Malaysia (UTM), Malaysia"
+        },
+        {
+          "name": "Dr. Heba Mahmoud Mohamed Afify",
+          "affiliation": "Cairo University, Egypt"
+        },
+        {
+          "name": "Dr. Inder Chaudhary",
+          "affiliation": "Delhi Technological University, Delhi, India"
+        },
+        {
+          "name": "Dr. Inder Chaudhary",
+          "affiliation": "Delhi Technological University, Delhi, India"
+        },
+        {
+          "name": "Dr. Itu Snigdh",
+          "affiliation": "Birla Institute of Technology, Mesra, India"
+        },
+        {
+          "name": "Dr. Itu Snigdh",
+          "affiliation": "Birla Institute of Technology, Mesra, India"
+        },
+        {
+          "name": "Dr. J K Rai",
+          "affiliation": "Defence Research and Development Organisation, India"
+        },
+        {
+          "name": "Dr. J. Jerald Inico",
+          "affiliation": "Loyola College, Chennai, India"
+        },
+        {
+          "name": "Dr. Jagadeeswara Rao Annam",
+          "affiliation": "Gudlavalleru Engineering College, Andhra Pradesh, India"
+        },
+        {
+          "name": "Dr. Jagannath Singh",
+          "affiliation": "Kalinga Institute of Industrial Technology, Bhubaneswar, India"
+        },
+        {
+          "name": "Dr. Jagannath Singh",
+          "affiliation": "Kalinga Institute of Industrial Technology, Bhubaneswar, India"
+        },
+        {
+          "name": "Dr. Jagdeep Singh",
+          "affiliation": "Sant Longowal Institute of Engineering and Technology, Longowal, Punjab, India"
+        },
+        {
+          "name": "Dr. Jainath Yadav",
+          "affiliation": "Central University of South Bihar, India"
+        },
+        {
+          "name": "Dr. Jainath Yadav",
+          "affiliation": "Central University of South Bihar, India"
+        },
+        {
+          "name": "Dr. Jay Prakash",
+          "affiliation": "National Institute of Technology, Calicut, India"
+        },
+        {
+          "name": "Dr. Jay Prakash",
+          "affiliation": "National Institute of Technology, Calicut, India"
+        },
+        {
+          "name": "Dr. Jaya Gera",
+          "affiliation": "Shyama Prasad Mukherji College for Women, Delhi, India"
+        },
+        {
+          "name": "Dr. Jeevaraj S",
+          "affiliation": "ABV- Indian Institute of Information Technology & Management, Gwalior, India"
+        },
+        {
+          "name": "Dr. Jolly Parikh",
+          "affiliation": "Bharati Vidyapeeth's College of Engineering, New Delhi, India"
+        },
+        {
+          "name": "Dr. Juyeon Yoon",
+          "affiliation": "Korea Advanced Institute of Science and Technology, Republic of Korea"
+        },
+        {
+          "name": "Dr. Jyoti Singh",
+          "affiliation": "Banaras Hindu University, Varanasi, India"
+        },
+        {
+          "name": "Dr. Jyoti Singh Kirar",
+          "affiliation": "Jawaharlal Nehru University, New Delhi, India"
+        },
+        {
+          "name": "Dr. K T V Reddy",
+          "affiliation": "Pravara Rural Education Society, Loni, India"
+        },
+        {
+          "name": "Dr. K. RaviKanth",
+          "affiliation": "AURORA University Hyderabad, INDIA"
+        },
+        {
+          "name": "Dr. K. Sridhar Patnaik",
+          "affiliation": "Birla Institute of Technology, Mesra, India"
+        },
+        {
+          "name": "Dr. Kamal Kishor Jha",
+          "affiliation": "Indian Institute of Information Technology, Vadodara, India"
+        },
+        {
+          "name": "Dr. Kanu Goel",
+          "affiliation": "Amity University, Punjab, India"
+        },
+        {
+          "name": "Dr. Kishore Kumar Senapati",
+          "affiliation": "Birla Institute of Technology, Mesra, India"
+        },
+        {
+          "name": "Dr. Koushlendra Kumar Singh",
+          "affiliation": "National Institute of Technology, Jamshedpur, India"
+        },
+        {
+          "name": "Dr. Koushlendra Kumar Singh",
+          "affiliation": "National Institute of Technology, Jamshedpur, India"
+        },
+        {
+          "name": "Dr. Kunwar Pal",
+          "affiliation": "National Institute of Technology, Jalandhar, Punjab"
+        },
+        {
+          "name": "Dr. Kusum Kumari Bharti",
+          "affiliation": "Indian Institute of Information Technology, D&M, Jabalpur, India"
+        },
+        {
+          "name": "Dr. Lakshmi Priya G",
+          "affiliation": "VIT University, Vellore, India"
+        },
+        {
+          "name": "Dr. Lalatendu Behera",
+          "affiliation": "National Institute of Technology, Jalandhar, Punjab"
+        },
+        {
+          "name": "Dr. Lokesh Chauhan",
+          "affiliation": "National Institute of Technology, Hamirpur, India"
+        },
+        {
+          "name": "Dr. Lokesh Chauhan",
+          "affiliation": "National Institute of Technology, Hamirpur, India"
+        },
+        {
+          "name": "Dr. M Joseph",
+          "affiliation": "Michael Research Foundation, Thanjavur, India"
+        },
+        {
+          "name": "Dr. M Nazma BJ Naskar",
+          "affiliation": "Kalinga Institute of Industrial Technology, Bhubaneswar, India"
+        },
+        {
+          "name": "Dr. M. Deva Priya",
+          "affiliation": "Sri Krishna College of Technology, Coimbatore, Tamil Nadu, India"
+        },
+        {
+          "name": "Dr. Mahendra Shukla",
+          "affiliation": "The LNM Institute of Information Technology, Jaipur, India"
+        },
+        {
+          "name": "Dr. Mainejar Yadav",
+          "affiliation": "Rajkiya Engineering College, Sonbhadra, India"
+        },
+        {
+          "name": "Dr. Manish Gupta",
+          "affiliation": "Amity University, Gwalior, India"
+        },
+        {
+          "name": "Dr. Manish K. Pandey",
+          "affiliation": "Banaras Hindu University, Varanasi, India"
+        },
+        {
+          "name": "Dr. Manish Kumar",
+          "affiliation": "R V University, Bangalore, India"
+        },
+        {
+          "name": "Dr. Manpreet Kaur",
+          "affiliation": "Manav Rachna University, Faridabad, India"
+        },
+        {
+          "name": "Dr. Mariya Ouaissa",
+          "affiliation": "Moulay Ismail University, Meknes, Morocco"
+        },
+        {
+          "name": "Dr. Mariya Ouaissa",
+          "affiliation": "Moulay Ismail University, Meknes, Morocco"
+        },
+        {
+          "name": "Dr. Mariyam Ouaissa",
+          "affiliation": "Moulay Ismail University, Meknes, Morocco"
+        },
+        {
+          "name": "Dr. Meriem Houmer",
+          "affiliation": "High School of Technology, Lbn Zohr University, Dakhla, Morocco"
+        },
+        {
+          "name": "Dr. Minakhi Rout",
+          "affiliation": "Kalinga Institute of Industrial Technology, Bhubaneswar, India"
+        },
+        {
+          "name": "Dr. Mohd Yaseen Mir",
+          "affiliation": "National Central University, Taiwan"
+        },
+        {
+          "name": "Dr. Mohd Yaseen Mir",
+          "affiliation": "National Central University, Taiwan"
+        },
+        {
+          "name": "Dr. Mohit Kumar",
+          "affiliation": "National Institute of Technology, Jalandhar, India"
+        },
+        {
+          "name": "Dr. Mohit Kumar",
+          "affiliation": "National Institute of Technology, Jalandhar, India"
+        },
+        {
+          "name": "Dr. Monica Chauhan Bhadoriya",
+          "affiliation": "Madhav Institute of Technology & Science, Gwalior, India"
+        },
+        {
+          "name": "Dr. Muhammad Abulaish",
+          "affiliation": "South Asian University, New Delhi, India"
+        },
+        {
+          "name": "Dr. Muhammad Sajjadur Rahim",
+          "affiliation": "University of Rajshahi, Bangladesh"
+        },
+        {
+          "name": "Dr. Mukesh Mishra",
+          "affiliation": "Indian Institute of Information Technology, Dharwad, India"
+        },
+        {
+          "name": "Dr. Mukesh Rawat",
+          "affiliation": "Meerut Institute of Engineering and Technology, Meerut, India"
+        },
+        {
+          "name": "Dr. Mukta Sharma",
+          "affiliation": "Michigan State University, USA"
+        },
+        {
+          "name": "Dr. Nafis uddin Khan",
+          "affiliation": "Jaypee University of Information Technology, Solan, India"
+        },
+        {
+          "name": "Dr. Nagarajan G",
+          "affiliation": "Sathyabama Institute of Science and Technology,Chennai, India"
+        },
+        {
+          "name": "Dr. Nagendra Pratap Singh",
+          "affiliation": "National Institute of Technology, Hamirpur, India"
+        },
+        {
+          "name": "Dr. Nandakishor Yadav",
+          "affiliation": "Fraunhofer Institute for Photonic Microsystems, Germany"
+        },
+        {
+          "name": "Dr. Nandakishor Yadav",
+          "affiliation": "Fraunhofer Institute for Photonic Microsystems, Germany"
+        },
+        {
+          "name": "Dr. Narendran Rajagopalan",
+          "affiliation": "National Institute of Technology, Puducherry, India"
+        },
+        {
+          "name": "Dr. Neetesh Kumar",
+          "affiliation": "IIT Roorkee, India"
+        },
+        {
+          "name": "Dr. Nisha Chaurasia",
+          "affiliation": "National Institute of Technology, Jalandhar, India"
+        },
+        {
+          "name": "Dr. Nisha Chaurasia",
+          "affiliation": "National Institute of Technology, Jalandhar, India"
+        },
+        {
+          "name": "Dr. Nisheeth Joshi",
+          "affiliation": "Banasthali Vidyapith, Rajasthan, India"
+        },
+        {
+          "name": "Dr. Nitesh K. Bharadwaj",
+          "affiliation": "O P Jindal University, Raigarh, Chhattisgarh, India"
+        },
+        {
+          "name": "Dr. Om Jee Pandey",
+          "affiliation": "IIT BHU"
+        },
+        {
+          "name": "Dr. Om Jee Pandey",
+          "affiliation": "SRM University, Andhra Pradesh, India"
+        },
+        {
+          "name": "Dr. P.Manikandaprabhu",
+          "affiliation": "Amrita Vishwa Vidyapeetham, Mysore, Karnataka, India"
+        },
+        {
+          "name": "Dr. P.Shanmugavadivu",
+          "affiliation": "The Gandhigram Rural Institute, Dindigul, Tamil Nadu, India."
+        },
+        {
+          "name": "Dr. Partha Pratim Sarangi",
+          "affiliation": "KIIT Deemed to be University, India"
+        },
+        {
+          "name": "Dr. Pavithra G",
+          "affiliation": "Dayananda Sagar College of Engg., Bangalore, Karnataka, India"
+        },
+        {
+          "name": "Dr. Pinar Kirci",
+          "affiliation": "Bursa Uludag University, Bursa, Turkey"
+        },
+        {
+          "name": "Dr. Piyush Kumar Singh",
+          "affiliation": "Central University of South Bihar, Gaya, India"
+        },
+        {
+          "name": "Dr. Pooja",
+          "affiliation": "University of Allahabad, Prayagraj, India"
+        },
+        {
+          "name": "Dr. Prabhat Ranjan",
+          "affiliation": "Central University of South Bihar, Gaya, India"
+        },
+        {
+          "name": "Dr. Pradeeba Sridar",
+          "affiliation": "Sydney Medical School, Australia"
+        },
+        {
+          "name": "Dr. Pradeep Kumar",
+          "affiliation": "University of KwaZulu-Natal, South Africa"
+        },
+        {
+          "name": "Dr. Prakash Kumar Singh",
+          "affiliation": "Rajkiya Engineering College, Mainpuri, India"
+        },
+        {
+          "name": "Dr. Prakash Srivastava",
+          "affiliation": "KIET Group of Institutions, Ghaziabad, India"
+        },
+        {
+          "name": "Dr. Prasenjit Chanak",
+          "affiliation": "Indian Institute of Technology (BHU), Varanasi, India"
+        },
+        {
+          "name": "Dr. Prasenjit Chanak",
+          "affiliation": "Indian Institute of Technology (BHU), Varanasi, India"
+        },
+        {
+          "name": "Dr. Prashant Singh Rana",
+          "affiliation": "Thapar Institute of Engineering & Technology, India"
+        },
+        {
+          "name": "Dr. Prateek Agrawal",
+          "affiliation": "Lovely Professional University, Punjab, India"
+        },
+        {
+          "name": "Dr. Prateek Pandey",
+          "affiliation": "Jaypee University of Engineering & Technology, India"
+        },
+        {
+          "name": "Dr. Praveen Pawar",
+          "affiliation": "Indian Institute of Information Technology, Bhopal, India"
+        },
+        {
+          "name": "Dr. Praveen Pawar",
+          "affiliation": "Indian Institute of Information Technology, Bhopal, India"
+        },
+        {
+          "name": "Dr. Preeth R.",
+          "affiliation": "Indian Institute of Information Technology, Design and Manufacturing, Kurnoola, India"
+        },
+        {
+          "name": "Dr. Preeti Sharma",
+          "affiliation": "Chitkara University Institute of Engineering and Technology, Punjab, India"
+        },
+        {
+          "name": "Dr. Priya Gupta",
+          "affiliation": "ABVSME, Jawaharlal Nehru University, New Delhi, India"
+        },
+        {
+          "name": "Dr. Priyanka Verma",
+          "affiliation": "University of Galway, Ireland"
+        },
+        {
+          "name": "Dr. Puneet Misra",
+          "affiliation": "University of Lucknow, India"
+        },
+        {
+          "name": "Dr. Pushpalatha S Nikkam",
+          "affiliation": "SDM College of Engineering and Technology, Dharwad, India"
+        },
+        {
+          "name": "Dr. R. Rathi",
+          "affiliation": "VIT, Vellore, India"
+        },
+        {
+          "name": "Dr. Raenu Kolandaisamy",
+          "affiliation": "UCSI University, Malaysia"
+        },
+        {
+          "name": "Dr. Rahul Kumar Verma",
+          "affiliation": "Bennett University, Greater Noida, India"
+        },
+        {
+          "name": "Dr. Rahul Kumar Verma",
+          "affiliation": "Indian Institute of Information Technology, Lucknow, India"
+        },
+        {
+          "name": "Dr. Rahul Kumar Vijay",
+          "affiliation": "Banasthali Vidyapith, Rajasthan, India"
+        },
+        {
+          "name": "Dr. Rajesh Rajagopal",
+          "affiliation": "Indian Institute of Management, Kozhikode, India"
+        },
+        {
+          "name": "Dr. Rajiv Ranjan Suman",
+          "affiliation": "National Institute of Technology, Jamshedpur, India"
+        },
+        {
+          "name": "Dr. Rakesh Kumar",
+          "affiliation": "GLA University, Mathura, India"
+        },
+        {
+          "name": "Dr. Ramalingaswamy Cheruku",
+          "affiliation": "National Institute of Technology, Warangal, India"
+        },
+        {
+          "name": "Dr. Ramesh Chand Pandey",
+          "affiliation": "Rajkiya Engineering College, Ambedkar Nagar, India"
+        },
+        {
+          "name": "Dr. Rashmi Chaudhry",
+          "affiliation": "Netaji Subhas University of Technology, New Delhi, India"
+        },
+        {
+          "name": "Dr. Rashmi Gupta",
+          "affiliation": "Atal Bihari Vajpayee University, Bilaspur, Chhattisgarh, India"
+        },
+        {
+          "name": "Dr. Ravilla Dilli",
+          "affiliation": "Manipal Institute of Technology, India"
+        },
+        {
+          "name": "Dr. Revathy G",
+          "affiliation": "Sastra University, India"
+        },
+        {
+          "name": "Dr. Richa Mishra",
+          "affiliation": "University of Allahabad, Prayagraj, India"
+        },
+        {
+          "name": "Dr. Rishi Raj Sharma",
+          "affiliation": "Defence Institute of Advanced Technology (DU), DRDO, Pune, India"
+        },
+        {
+          "name": "Dr. Rohit Kumar Tiwari",
+          "affiliation": "Madan Mohan Malaviya University of Technology, Gorakhpur, India"
+        },
+        {
+          "name": "Dr. Rohit Singh",
+          "affiliation": "International Management Institute, Kolkata, India"
+        },
+        {
+          "name": "Dr. S. Gandhiya Vendhan",
+          "affiliation": "Bharathiar University, Coimbatore, India"
+        },
+        {
+          "name": "Dr. Sachi Nandan Mohanty",
+          "affiliation": "College of Engineering Pune, India"
+        },
+        {
+          "name": "Dr. Sadhana Mishra",
+          "affiliation": "ITM University, Gwalior, India"
+        },
+        {
+          "name": "Dr. Sameer Kulkarni",
+          "affiliation": "Indian Institute of Technology, Gandhinagar"
+        },
+        {
+          "name": "Dr. Sanjay Kumar",
+          "affiliation": "National Institute of Technology, Jamshedpur, India"
+        },
+        {
+          "name": "Dr. Sanjeev Patel",
+          "affiliation": "NIT Rourkela, India"
+        },
+        {
+          "name": "Dr. Sanjeev Sharma",
+          "affiliation": "Indian Institute of Information Technology, Pune, India"
+        },
+        {
+          "name": "Dr. Santosh Kumar Satapathy",
+          "affiliation": "Pandit Deendayal Energy University, Gandhinagar, India"
+        },
+        {
+          "name": "Dr. Saumya Bhadauria",
+          "affiliation": "ABV-Indian Institute of Information Technology and Management, Gwalior, India"
+        },
+        {
+          "name": "Dr. Saumya Bhadauria",
+          "affiliation": "ABV-Indian Institute of Information Technology and Management, Gwalior, India"
+        },
+        {
+          "name": "Dr. Saurabh Bilgaiyan",
+          "affiliation": "Kalinga Institute of Industrial Technology, Bhubaneswar, India"
+        },
+        {
+          "name": "Dr. Saurabh Bilgaiyan",
+          "affiliation": "Kalinga Institute of Industrial Technology, Bhubaneswar, India"
+        },
+        {
+          "name": "Dr. Saurabh Kumar",
+          "affiliation": "The LNM Institute of Information Technology, Jaipur, India"
+        },
+        {
+          "name": "Dr. Seera Dileep Raju",
+          "affiliation": "Dr Reddy's laboratories, India"
+        },
+        {
+          "name": "Dr. Shailesh Kumar",
+          "affiliation": "Jaypee Institute of Information Technology, Noida, India"
+        },
+        {
+          "name": "Dr. Shantanu Agnihotri",
+          "affiliation": "Bennett University, Greater Noida, India"
+        },
+        {
+          "name": "Dr. Shantanu Agnihotri",
+          "affiliation": "Bennett University, Greater Noida, India"
+        },
+        {
+          "name": "Dr. Shimpi Singh Jadon",
+          "affiliation": "Govt. Rajkiya Engineering College, Kannauj, India"
+        },
+        {
+          "name": "Dr. Shiv Prakash",
+          "affiliation": "University of Allahabad, Prayagraj, India"
+        },
+        {
+          "name": "Dr. Shivam Sakshi",
+          "affiliation": "Indian Institute of Management, Bangalore, India"
+        },
+        {
+          "name": "Dr. Shivani Sharma",
+          "affiliation": "Indian Institute of Information Technology, Naya Raipur, India"
+        },
+        {
+          "name": "Dr. Shivani Sharma",
+          "affiliation": "Thapar Institute of Engineering & Technology, Patiala, India"
+        },
+        {
+          "name": "Dr. Shubhra Jain",
+          "affiliation": "Indian Institute of Information Technology, Lucknow, India"
+        },
+        {
+          "name": "Dr. Shyam Singh Rajput",
+          "affiliation": "National Institute of Technology, Patna, India"
+        },
+        {
+          "name": "Dr. Shyam Singh Rajput",
+          "affiliation": "National Institute of Technology, Patna, India"
+        },
+        {
+          "name": "Dr. Siva Shankar Ramasamy",
+          "affiliation": "International College of Digital Innovation - Chiang Mai University, Chiang Mai, Thailand"
+        },
+        {
+          "name": "Dr. Sonali Gupta",
+          "affiliation": "J C Bose University of Science and Technology, Faridabad, India"
+        },
+        {
+          "name": "Dr. Sonu Lamba",
+          "affiliation": "Thapar Institute of Engineering & Technology, Patiala, India"
+        },
+        {
+          "name": "Dr. Soumaia A. Al Ayyat",
+          "affiliation": "The American University in Cairo, Egypt"
+        },
+        {
+          "name": "Dr. Sri Vallabha Deevi",
+          "affiliation": "Tiger Analytics, India"
+        },
+        {
+          "name": "Dr. Srinidhi N N",
+          "affiliation": "Manipal Institute of Technology, Bengaluru, India"
+        },
+        {
+          "name": "Dr. Sudhakar Singh",
+          "affiliation": "University of Allahabad, India"
+        },
+        {
+          "name": "Dr. Sudhakar Singh",
+          "affiliation": "University of Allahabad, Prayagraj, India"
+        },
+        {
+          "name": "Dr. Sudhanshu Kumar Jha",
+          "affiliation": "University of Allahabad, Prayagraj, India"
+        },
+        {
+          "name": "Dr. Suneel Yadav",
+          "affiliation": "Indian Institute of Information Technology, Allahabad, India"
+        },
+        {
+          "name": "Dr. Suneel Yadav",
+          "affiliation": "Indian Institute of Information Technology, Allahabad, India"
+        },
+        {
+          "name": "Dr. Sunil",
+          "affiliation": "Jamia Millia Islamia, New Delhi, India"
+        },
+        {
+          "name": "Dr. Sunil Dutt",
+          "affiliation": "Indian Institute of Information Technology, Vadodara, India"
+        },
+        {
+          "name": "Dr. Sunil Kumar",
+          "affiliation": "ABV-Indian Institute of Information Technology and Management, Gwalior, India"
+        },
+        {
+          "name": "Dr. Sunil Kumar Chawla",
+          "affiliation": "Chandigarh University, India"
+        },
+        {
+          "name": "Dr. Suparna Biswas",
+          "affiliation": "Maulana Abul Kalam Azad University of Technology, West Bengal, India"
+        },
+        {
+          "name": "Dr. Suresh Raikwar",
+          "affiliation": "Thapar Institute of Engineering & Technology, Patiala, India"
+        },
+        {
+          "name": "Dr. Sushopti Gawade",
+          "affiliation": "Vidyalankar Institute of Technology, Wadala, Mumbai, Maharashtra, India"
+        },
+        {
+          "name": "Dr. Syed Mutahar Aaqib",
+          "affiliation": "Government PG Degree College, Baramulla, Jammu & Kashmir, India"
+        },
+        {
+          "name": "Dr. U.Anitha",
+          "affiliation": "Sathyabama Institute of Science and Technology, Chennai, India"
+        },
+        {
+          "name": "Dr. V.D. Ambeth Kumar",
+          "affiliation": "Panimalar Engineering College, Anna University, India"
+        },
+        {
+          "name": "Dr. Vaibhav Soni",
+          "affiliation": "Maulana Azad National Institute of Technology, Bhopal, India"
+        },
+        {
+          "name": "Dr. Venkanna U",
+          "affiliation": "National Institute of Technology, Trichy, India"
+        },
+        {
+          "name": "Dr. Vibhav Prakash Singh",
+          "affiliation": "Motilal Nehru National Institute of Technology, Allahabad, India"
+        },
+        {
+          "name": "Dr. Vijay Bhaskar Semwal",
+          "affiliation": "Maulana Azad National Institute of Technology, Bhopal, India"
+        },
+        {
+          "name": "Dr. Vijay Kumar Bohat",
+          "affiliation": "Bennett University, Greater Noida, India"
+        },
+        {
+          "name": "Dr. Vijay Kumar Dwivedi",
+          "affiliation": "United College of Engineering and Research, Allahabad, India"
+        },
+        {
+          "name": "Dr. Vijay Kumar Dwivedi",
+          "affiliation": "United College of Engineering and Research, Prayagraj, India"
+        },
+        {
+          "name": "Dr. Vijay Kumar Sharma",
+          "affiliation": "Shri Mata Vaishno Devi University, Jammu and Kashmir, India"
+        },
+        {
+          "name": "Dr. Vijay Kumar Sharma",
+          "affiliation": "Shri Mata Vaishno Devi University, Jammu and Kashmir, India"
+        },
+        {
+          "name": "Dr. Vikas Mohar",
+          "affiliation": "Madhav Institute of Technology & Science, Gwalior, India"
+        },
+        {
+          "name": "Dr. Vinal Patel",
+          "affiliation": "ABV-Indian Institute of Information Technology and Management, Gwalior, India"
+        },
+        {
+          "name": "Dr. Vinay Kumar Jain",
+          "affiliation": "SSTC-SSGI, Bhilai, India"
+        },
+        {
+          "name": "Dr. Vinay Singh",
+          "affiliation": "ABV-Indian Institute of Information Technology and Management, Gwalior, India"
+        },
+        {
+          "name": "Dr. Vinita Jindal",
+          "affiliation": "Keshav Mahavidyalaya, University of Delhi, India"
+        },
+        {
+          "name": "Dr. Vinod Kumar",
+          "affiliation": "University of Allahabad, India"
+        },
+        {
+          "name": "Dr. Vishal Pradhan",
+          "affiliation": "KIIT University, Bhubaneswar, India"
+        },
+        {
+          "name": "Dr. Vishal Shrivastava",
+          "affiliation": "Arya College of Engineering and IT, Jaipur, India"
+        },
+        {
+          "name": "Dr. Vivek Kumar",
+          "affiliation": "PSIT Kanpur, India"
+        },
+        {
+          "name": "Dr. Yadunath Pathak",
+          "affiliation": "Visvesvaraya National Institute of Technology, Nagpur, India"
+        },
+        {
+          "name": "Dr. Yogish H K",
+          "affiliation": "M S Ramaiah Institute of Technology, India"
+        },
+        {
+          "name": "Dr. Zehua Wang",
+          "affiliation": "The University of British Columbia, Vancouver, Canada"
+        },
+        {
+          "name": "Radhakrishna Bhat",
+          "affiliation": "Manipal Institute of Technology, Manipal Academy of Higher Education, Manipal, India"
+        }
+      ]
+    }
+  ]
+}

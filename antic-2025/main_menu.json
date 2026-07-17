@@ -1,0 +1,80 @@
+{
+  "items": [
+    {
+      "label": "Home",
+      "href": "#",
+      "icon": "fa fa-home",
+      "enabled": true,
+      "class": "menu-active"
+    },
+    {
+      "label": "About",
+      "href": "#about",
+      "icon": "fa fa-info",
+      "enabled": true
+    },
+    {
+      "label": "Guidelines",
+      "href": "#guidelines",
+      "icon": "fa fa-file-text-o",
+      "enabled": true
+    },
+    {
+      "label": "Important Dates",
+      "href": "#dates",
+      "icon": "fa fa-calendar",
+      "enabled": true
+    },
+    {
+      "label": "Committee",
+      "href": "/committee.html",
+      "icon": "fa fa-users",
+      "enabled": true
+    },
+    {
+      "label": "Gallery",
+      "href": "/gallery.html",
+      "icon": "fa fa-picture-o",
+      "enabled": true
+    },
+    {
+      "label": "Contact",
+      "href": "#contacts",
+      "icon": "fa fa-envelope",
+      "enabled": true
+    },
+    {
+      "label": "Previous Antic",
+      "href": "#",
+      "icon": "fa fa-history",
+      "enabled": true,
+      "class": "menu-has-children",
+      "children": [
+        {
+          "label": "Antic 2021",
+          "href": "/antic-2021/index.html",
+          "icon": "fa fa-calendar-check-o",
+          "enabled": true
+        },
+        {
+          "label": "Antic 2022",
+          "href": "/antic-2022/index.html",
+          "icon": "fa fa-calendar-check-o",
+          "enabled": true
+        },
+        {
+          "label": "Antic 2023",
+          "href": "/antic-2023/index.html",
+          "icon": "fa fa-calendar-check-o",
+          "enabled": true
+        },
+        {
+          "label": "Antic 2024",
+          "href": "/antic-2024/index.html",
+          "icon": "fa fa-calendar-check-o",
+          "enabled": true
+        }
+      ]
+    }
+  ]
+}

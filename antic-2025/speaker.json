@@ -1,0 +1,34 @@
+{
+  "keynoteSpeakers": {
+    "enabled": true,
+    "list": [
+      {
+        "enabled": true,
+        "name": "Prof. Dipankar Dasgupta",
+        "institute": "The University of Memphis<br> Memphis, USA",
+        "image": "static/img/cm/ddg.jpg"
+      },
+      {
+        "enabled": false,
+        "name": "Prof. Rajiv Ranjan",
+        "institute": "Newcastle University<br>United Kingdom",
+        "image": "static/img/person.png"
+      },
+      {
+        "enabled": true,
+        "name": "Dr. Varun Ojha",
+        "institute": "Newcastle University<br>United Kingdom",
+        "image": "static/img/cm/varunojha.jpg"
+      }
+    ]
+  },
+  "workshop": {
+    "enabled": true,
+    "speaker": {
+      "enabled": true,
+      "name": "Dr. Devki Nandan Jha",
+      "institute": "Newcastle University<br>United Kingdom",
+      "image": "static/img/cm/devojha.jpg"
+    }
+  }
+}
