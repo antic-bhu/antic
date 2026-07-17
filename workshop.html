@@ -87,7 +87,7 @@
     <header id="header">
       <div class="container">
         <div id="logo" class="pull-left">
-          <a href="/#" class="scrollto"><img src="/static/img/comain-2025.png" width="120" alt=""></a>
+          <a href="/#" class="scrollto"><img src="/static/img/comain-2026.png" width="120" alt=""></a>
         </div>
       </div>
       <nav id="nav-menu-container" style="padding-right: 5px;">
@@ -164,7 +164,7 @@
           <div class="section-header" style="background-color:#000; color:#f5f5f5; padding:40px; border-radius:8px;">
             <h2 style="padding-bottom: 10px; color:rgb(255, 255, 255);">ABOUT WORKSHOP</h2>
             <div style="text-align:center; margin-bottom:20px;">
-              <img src="/static/img/comain-2025.png" alt="ANTIC 2025" style="max-width:150px;">
+              <img src="/static/img/comain-2026.png" alt="ANTIC 2026" style="max-width:150px;">
             </div>
             <div class="row">
 
@@ -173,11 +173,11 @@
                 <!-- <h3 style="color:#fff;">AAMLAD <span style="color:#3ba3b5;">2025</span></h3> -->
                 <p>
                   Indian Institute of Information Technology, Lucknow (IIIT Lucknow) proudly presents
-                  the <span style="color:#3ba3b5;"><strong><span>1<sup>st</sup></span> International Workshop on
+                  the <span style="color:#3ba3b5;"><strong><span>2<sup>nd</sup></span> International Workshop on
                       <span>Advancing AI and ML Across Disciplines: Use Cases and
-                        Emerging Applications (AAMLAD-2025)</strong></span></span>, to be held from <strong>December
+                        Emerging Applications (AAMLAD-2026)</strong></span></span>, to be held from <strong>December
                     21–23, 2026</strong> in
-                  Gwalior, India in offline mode (with limited online participation).
+                  Lucknow, India in offline mode (with limited online participation).
                   The accepted and presented papers of this workshop will be published as <span
                     style="color:#3ba3b5;"><strong>open-access</strong></span> proceedings in the CCIS series of
                   Springer
@@ -605,11 +605,11 @@
                     </div>
 
                     <p style="text-align: justify; font-size: 15px; padding-right: 10px;">
-                        Proposal to publish conference proceedings of <strong>AAMLAD-2025</strong> has already been
-                        accepted and submitted to the <strong>Communications in Computer and Information Science (CCIS)</strong>
+                        Proposal to publish conference proceedings of <strong>AAMLAD-2026</strong> has been
+                         submitted to the <strong>Communications in Computer and Information Science (CCIS)</strong>
                         series of Springer.
                         <br><br>
-                        All accepted and registered papers of <strong>AAMLAD-2025</strong> will be submitted for
+                        All accepted and registered papers of <strong>AAMLAD-2026</strong> will be submitted for
                         publication in the CCIS series of Springer.
                         <br>
                         <a style="font-style: italic;"
@@ -667,8 +667,8 @@
                         <tr>
                           <th>Sr. No.</th>
                           <th>Category</th>
-                          <th>Indian Delegates (₹)</th>
-                          <th>Foreign Delegates ($)</th>
+                          <th>Indian Delegates (INR)</th>
+                          <th>Foreign Delegates (USD)</th>
                         </tr>
                       </thead>
                       <tbody>
@@ -1429,57 +1429,16 @@
   <!--==========================
     Footer
   ============================-->
-  <div id="footer-container-m">
-    <footer id="footer" style="padding-bottom: 10px;">
-      <div class="footer-top" style="padding: 65px 0 0px 0;">
-        <div class="container">
-
-          <!-- Section Title -->
-          <div class="row">
-            <div class="col-12 text-center">
-              <h2 style="
-                        color: #3ba3b5;
-                        font-size: 30px;
-                        text-transform: uppercase;
-                        font-weight: 500;
-                        margin-bottom: 30px;
-                        border-bottom: 2px solid #3ba3b5;
-                        display: inline-block;">
-                Address for Correspondence
-              </h2>
-            </div>
-          </div>
-
-          <!-- Contact Row -->
-          <div class="row d-flex flex-wrap justify-content-center text-center">
-            <div class="col-lg-6 col-md-12 mb-4">
-              <h2 style="color: white; font-size: 20px; text-transform: uppercase; font-weight: 500;">
-                Dr. Anshul Verma
-              </h2>
-              <p style="font-size: 15px; line-height: 24px;">
-                (Workshop Convener, AAMLAD-2025)<br>
-                Department of Computer Science<br>
-                Banaras Hindu University, Varanasi – 221005<br>
-                Uttar Pradesh, India<br>
-                <a href="tel:+919826074618" style="color: white; text-decoration: underline;">+91 9826074618</a>
-                <br><a href="mailto:antic.bhu@gmail.com"
-                  style="color: white; text-decoration: underline;">antic.bhu@gmail.com</a>
-              </p>
-            </div>
-          </div>
-
-        </div>
-      </div>
-
-      <!-- Copyright -->
-      <div class="container">
-        <div class="copyright" style="padding-top: 10px; text-align: center; color: white;">
-          &copy; Copyright <strong>AAMLAD</strong>. All Rights Reserved
-        </div>
-      </div>
-    </footer>
-
+  <div id="contacts">
+    <div id="footer-container"></div>
   </div>
+  <script>
+    fetch('/footer-workshop.html')
+            .then(res => res.text())
+            .then(html => {
+              document.getElementById('footer-container').innerHTML = html;
+            });
+  </script>
 
   <a href="#" class="back-to-top"><i class="fa fa-angle-up"></i></a>
 
