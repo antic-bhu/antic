@@ -1,0 +1,5 @@
+# AI.txt for https://antic.co.in/
+# This file governs how AI bots are allowed to interact with our content.
+
+User-Agent: *
+Allow: /
