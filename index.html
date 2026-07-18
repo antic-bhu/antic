@@ -49,7 +49,220 @@
 			background-color: rgba(256, 256, 256, 0.15);
 			transition: 0.5s;
 			width: 405px;
-			border: 5px solid #3ba3b5
+			border: 5px solid #3ba3b5;
+		}
+
+		/* Past Conferences Redesign (Desktop Horizontal Scroll Grid) */
+		.past-conferences-grid-container {
+			display: flex;
+			gap: 20px;
+			overflow-x: auto;
+			padding: 20px 10px;
+			scroll-behavior: smooth;
+		}
+
+		.past-conferences-grid-container::-webkit-scrollbar {
+			height: 8px;
+		}
+
+		.past-conferences-grid-container::-webkit-scrollbar-track {
+			background: rgba(255, 255, 255, 0.05);
+			border-radius: 4px;
+		}
+
+		.past-conferences-grid-container::-webkit-scrollbar-thumb {
+			background: #3ba3b5;
+			border-radius: 4px;
+		}
+
+		.past-conferences-grid-container::-webkit-scrollbar-thumb:hover {
+			background: #2d8291;
+		}
+
+		.past-conferences-card {
+			flex: 0 0 580px;
+			display: flex;
+			background: rgba(0, 13, 22, 0.95);
+			backdrop-filter: blur(10px);
+			-webkit-backdrop-filter: blur(10px);
+			border: 1px solid rgba(59, 163, 181, 0.3);
+			border-radius: 12px;
+			box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.3);
+			overflow: hidden;
+			transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+		}
+
+		.past-conferences-card:hover {
+			transform: translateY(-5px);
+			box-shadow: 0 12px 40px 0 rgba(59, 163, 181, 0.25);
+			border-color: rgba(59, 163, 181, 0.4);
+		}
+
+		.past-card-left {
+			flex: 0 0 190px;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			padding: 15px;
+			background: rgba(0, 0, 0, 0.2);
+		}
+
+		.past-card-left img {
+			max-width: 100%;
+			height: auto;
+			max-height: 220px;
+			object-fit: contain;
+			border-radius: 6px;
+		}
+
+		.past-card-separator {
+			width: 1px;
+			background: linear-gradient(180deg, rgba(59, 163, 181, 0) 0%, rgba(59, 163, 181, 0.6) 50%, rgba(59, 163, 181, 0) 100%);
+			margin: 15px 0;
+			flex-shrink: 0;
+		}
+
+		.past-card-right {
+			flex: 1;
+			padding: 20px;
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+		}
+
+		.past-card-right h3 {
+			font-size: 1.2rem;
+			font-weight: bold;
+			color: #3ba3b5;
+			margin-bottom: 12px;
+			text-transform: uppercase;
+		}
+
+		.past-card-right p {
+			font-size: 0.88rem;
+			color: #e0e0e0;
+			line-height: 1.5;
+			margin: 0;
+		}
+
+		.past-card-right a {
+			color: #3ba3b5;
+			word-break: break-all;
+			font-weight: 500;
+			transition: color 0.2s;
+		}
+
+		.past-card-right a:hover {
+			color: #2d8291;
+			text-decoration: underline;
+		}
+
+		/* Past Conferences Redesign (Mobile Accordion) */
+		.past-conferences-accordion {
+			display: flex;
+			flex-direction: column;
+			gap: 15px;
+			padding: 10px 0;
+		}
+
+		.accordion-item {
+			background: rgba(0, 13, 22, 0.95);
+			backdrop-filter: blur(10px);
+			-webkit-backdrop-filter: blur(10px);
+			border: 1px solid rgba(59, 163, 181, 0.3);
+			border-radius: 8px;
+			overflow: hidden;
+			transition: border-color 0.3s, box-shadow 0.3s;
+		}
+
+		.accordion-item.active {
+			border-color: rgba(59, 163, 181, 0.4);
+			box-shadow: 0 4px 15px rgba(59, 163, 181, 0.15);
+		}
+
+		.accordion-header {
+			width: 100%;
+			background: transparent;
+			border: none;
+			outline: none;
+			color: #fff;
+			padding: 15px 20px;
+			font-size: 1.05rem;
+			font-weight: 600;
+			text-align: left;
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			cursor: pointer;
+			transition: background 0.3s;
+		}
+
+		.accordion-header:hover {
+			background: rgba(255, 255, 255, 0.03);
+		}
+
+		.accordion-header span {
+			color: #3ba3b5;
+		}
+
+		.accordion-header i {
+			font-size: 0.95rem;
+			transition: transform 0.3s ease;
+			color: #3ba3b5;
+		}
+
+		.accordion-item.active .accordion-header i {
+			transform: rotate(180deg);
+		}
+
+		.accordion-content {
+			max-height: 0;
+			overflow: hidden;
+			transition: max-height 0.3s ease-out;
+		}
+
+		.accordion-content-inner {
+			padding: 20px;
+			display: flex;
+			flex-direction: column;
+			gap: 15px;
+			background: rgba(0, 0, 0, 0.15);
+		}
+
+		.past-card-top {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			background: rgba(0, 0, 0, 0.2);
+			padding: 15px;
+			border-radius: 6px;
+		}
+
+		.past-card-top img {
+			max-height: 180px;
+			object-fit: contain;
+			border-radius: 6px;
+		}
+
+		.past-card-horizontal-separator {
+			height: 1px;
+			background: linear-gradient(90deg, rgba(59, 163, 181, 0) 0%, rgba(59, 163, 181, 0.6) 50%, rgba(59, 163, 181, 0) 100%);
+		}
+
+		.past-card-details {
+			color: #e0e0e0;
+			font-size: 0.88rem;
+			line-height: 1.5;
+		}
+
+		.past-card-details a {
+			color: #3ba3b5;
+			word-break: break-all;
+			font-weight: 500;
+		}
+
+		.past-card-details a:hover {
+			text-decoration: underline;
 		}
 	</style>
 	<meta name="title" content="ANTIC 2026 — International Conference on Advanced Network Technologies and Intelligent Computing">
@@ -131,7 +344,6 @@
 					<li><a href="#payment_details-mob"><i class="fa fa-info"></i></a></li>
 					<li><a href="/committee.html"><i class="fa fa-users"></i></a></li>
 					<li><a href="/gallery.html"><i class="fa fa-picture-o"></i></a></li>
-					<li><a href="/workshop.html"><i class="fa fa-flask" aria-hidden="true"></i></a></li>
 					<li><a href="#contacts"><i class="fa fa-envelope"></i></a></li>
 
 					<li class="menu-has-children"><a href="#"> <i class="fa fa-history"></i></a>
@@ -147,7 +359,7 @@
 
 						</ul>
 					</li>
-					<li><a href="/workshop.html"><i class="fa fa-exclamation-circle"></i></a></li>
+					<li><a href="/workshop.html"><i class="fa fa-flask" aria-hidden="true"></i></a></li>
 				</ul>
 			</nav>
 		</header>
@@ -594,125 +806,78 @@
           Proceedings Section
         ============================-->
 			<section id="past-antic-conferences" class="wow fadeInUp" style="padding-bottom: 0px;">
-				<div class="container" id="proceedings">
+				<div class="container-fluid px-4 px-lg-5" id="proceedings">
 					<div class="section-header">
 						<h2 style="padding-bottom: 10px;">Past ANTIC Conferences</h2>
-						<div class="row">
-							<div class="col-lg-12" style="text-align: center;">
-								<a style="line-height: 60px; font-style: italic;" href="https://link.springer.com/conference/antic" target="_blank"><strong>https://link.springer.com/conference/antic</strong></a>
-							</div>
-							<br>
-							<div class="col-lg-12">
-								<div><img src="/static/img/1.jpg" style="height: 220px; float: left; margin:0px 50px 0px 100px;" alt="1">
+						<div class="past-conferences-grid-container">
+							<!-- ANTIC-2021 -->
+							<div class="past-conferences-card">
+								<div class="past-card-left">
+									<img src="/static/img/1.jpg" alt="ANTIC 2021 Cover">
 								</div>
-
-								<h3 style="font-size: 18px; font-weight: bold; text-transform: uppercase; margin-bottom: 10px;">
-									ANTIC-2021</h3>
-								<p style="text-align: justify; font-size: 15px; color: rgb(50,50,50); padding-right: 10px;">
-									<strong>Communications in Computer and Information Science (CCIS) Volume
-										1534<br>Advanced
-										Network
-										Technologies and Intelligent Computing</strong><br>First International
-									Conference,
-									ANTIC 2021,
-									Varanasi, India, December 17–18, 2021 <br><strong>Proceedings
-										Editors</strong><br>Isaac
-									Woungang,
-									Sanjay Kumar Dhurandher, Kiran Kumar Pattanaik, Anshul Verma, Pradeepika Verma<br><a style="line-height: 30px; font-style: italic;" href="https://link.springer.com/book/10.1007/978-3-030-96040-7" target="_blank">https://link.springer.com/book/10.1007/978-3-030-96040-7</a>
-								</p>
+								<div class="past-card-separator"></div>
+								<div class="past-card-right">
+									<h3>ANTIC-2021</h3>
+									<p>
+										<strong>Communications in Computer and Information Science (CCIS) Volume 1534<br>Advanced Network Technologies and Intelligent Computing</strong><br>First International Conference, ANTIC 2021, Varanasi, India, December 17–18, 2021 <br><strong>Proceedings Editors</strong><br>Isaac Woungang, Sanjay Kumar Dhurandher, Kiran Kumar Pattanaik, Anshul Verma, Pradeepika Verma<br><a href="https://link.springer.com/book/10.1007/978-3-030-96040-7" target="_blank">https://link.springer.com/book/10.1007/978-3-030-96040-7</a>
+									</p>
+								</div>
 							</div>
 
-							<div class="col-lg-12" style="top: 20px">
-								<div><img src="/static/img/2.jpg" style="height: 220px; float: left; margin:0px 50px 0px 100px;" alt="2">
+							<!-- ANTIC-2022 -->
+							<div class="past-conferences-card">
+								<div class="past-card-left">
+									<img src="/static/img/2.jpg" alt="ANTIC 2022 Cover">
 								</div>
-								<h3 style="font-size: 18px; font-weight: bold; text-transform: uppercase; margin-bottom: 10px;">
-									ANTIC-2022</h3>
-								<p style="text-align: justify; font-size: 15px; color: rgb(50,50,50); padding-right: 10px;">
-									<strong>Communications in Computer and Information Science (CCIS) Volume 1797 &
-										1798<br>Advanced
-										Network Technologies and Intelligent Computing</strong><br>Second International
-									Conference, ANTIC
-									2022, Varanasi, India, December 22–24, 2022 <br><strong>Proceedings
-										Editors</strong><br>Isaac
-									Woungang, Sanjay Kumar Dhurandher, Kiran Kumar Pattanaik, Anshul Verma, Pradeepika
-									Verma
-									<br><strong>Part I :</strong><a style="line-height: 30px; font-style: italic;" href="https://link.springer.com/book/10.1007/978-3-031-28180-8" target="_blank">https://link.springer.com/book/10.1007/978-3-031-28180-8</a>
-									<br><strong>Part II :</strong><a style="line-height: 30px; font-style: italic;" href="https://link.springer.com/book/10.1007/978-3-031-28183-9" target="_blank">https://link.springer.com/book/10.1007/978-3-031-28183-9</a>
-								</p>
+								<div class="past-card-separator"></div>
+								<div class="past-card-right">
+									<h3>ANTIC-2022</h3>
+									<p>
+										<strong>Communications in Computer and Information Science (CCIS) Volume 1797 & 1798<br>Advanced Network Technologies and Intelligent Computing</strong><br>Second International Conference, ANTIC 2022, Varanasi, India, December 22–24, 2022 <br><strong>Proceedings Editors</strong><br>Isaac Woungang, Sanjay Kumar Dhurandher, Kiran Kumar Pattanaik, Anshul Verma, Pradeepika Verma<br><strong>Part I :</strong> <a href="https://link.springer.com/book/10.1007/978-3-031-28180-8" target="_blank">https://link.springer.com/book/10.1007/978-3-031-28180-8</a><br><strong>Part II :</strong> <a href="https://link.springer.com/book/10.1007/978-3-031-28183-9" target="_blank">https://link.springer.com/book/10.1007/978-3-031-28183-9</a>
+									</p>
+								</div>
 							</div>
 
-							<div class="col-lg-12" style="top: 50px">
-								<div><img src="/static/img/antic-2023-proc-cover.png" style="height: 220px; float: left; margin:0px 50px 0px 100px;" alt="Antic 2023 Proc Cover">
+							<!-- ANTIC-2023 -->
+							<div class="past-conferences-card">
+								<div class="past-card-left">
+									<img src="/static/img/antic-2023-proc-cover.png" alt="ANTIC 2023 Cover">
 								</div>
-								<h3 style="font-size: 18px; font-weight: bold; text-transform: uppercase; margin-bottom: 10px;">
-									ANTIC-2023</h3>
-								<p style="text-align: justify; font-size: 15px; color: rgb(50,50,50); padding-right: 10px;">
-									<strong>Communications in Computer and Information Science (CCIS) Volume 2090, 2091,
-										2092 and
-										2093<br>Advanced Network Technologies and Intelligent
-										Computing</strong><br>Third
-									International
-									Conference, ANTIC
-									2023, Varanasi, India, December 20–22, 2023 <br><strong>Proceedings
-										Editors</strong><br>Anshul
-									Verma,
-									Pradeepika Verma, Kiran Kumar Pattanaik, Sanjay Kumar Dhurandher,
-									Isaac Woungang
-									<br><strong>Part I :</strong>
-									<a style="line-height: 25px; font-style: italic;" href="https://link.springer.com/book/10.1007/978-3-031-64076-6" target="_blank">https://link.springer.com/book/10.1007/978-3-031-64076-6</a>
-									<br><strong>Part II :</strong>
-									<a style="line-height: 25px; font-style: italic;" href="https://link.springer.com/book/10.1007/978-3-031-64064-3" target="_blank">https://link.springer.com/book/10.1007/978-3-031-64064-3</a>
-									<br><strong>Part III :</strong>
-									<a style="line-height: 25px; font-style: italic;" href="https://link.springer.com/book/10.1007/978-3-031-64070-4" target="_blank">https://link.springer.com/book/10.1007/978-3-031-64070-4</a>
-									<br><strong>Part IV :</strong>
-									<a style="line-height: 25px; font-style: italic;" href="https://link.springer.com/book/10.1007/978-3-031-64067-4" target="_blank">https://link.springer.com/book/10.1007/978-3-031-64067-4</a>
-								</p>
+								<div class="past-card-separator"></div>
+								<div class="past-card-right">
+									<h3>ANTIC-2023</h3>
+									<p>
+										<strong>Communications in Computer and Information Science (CCIS) Volume 2090, 2091, 2092 and 2093<br>Advanced Network Technologies and Intelligent Computing</strong><br>Third International Conference, ANTIC 2023, Varanasi, India, December 20–22, 2023 <br><strong>Proceedings Editors</strong><br>Anshul Verma, Pradeepika Verma, Kiran Kumar Pattanaik, Sanjay Kumar Dhurandher, Isaac Woungang<br><strong>Part I :</strong> <a href="https://link.springer.com/book/10.1007/978-3-031-64076-6" target="_blank">https://link.springer.com/book/10.1007/978-3-031-64076-6</a><br><strong>Part II :</strong> <a href="https://link.springer.com/book/10.1007/978-3-031-64064-3" target="_blank">https://link.springer.com/book/10.1007/978-3-031-64064-3</a><br><strong>Part III :</strong> <a href="https://link.springer.com/book/10.1007/978-3-031-64070-4" target="_blank">https://link.springer.com/book/10.1007/978-3-031-64070-4</a><br><strong>Part IV :</strong> <a href="https://link.springer.com/book/10.1007/978-3-031-64067-4" target="_blank">https://link.springer.com/book/10.1007/978-3-031-64067-4</a>
+									</p>
+								</div>
 							</div>
 
-							<div class="col-lg-12" style="top: 80px">
-								<div><img src="/static/img/antic-2024-proc-cover.webp" style="height: 220px; float: left; margin:0px 50px 0px 100px;" alt="Antic 2024 Proc Cover">
+							<!-- ANTIC-2024 -->
+							<div class="past-conferences-card">
+								<div class="past-card-left">
+									<img src="/static/img/antic-2024-proc-cover.webp" alt="ANTIC 2024 Cover">
 								</div>
-								<h3 style="font-size: 18px; font-weight: bold; text-transform: uppercase; margin-bottom: 10px;">
-									ANTIC-2024</h3>
-								<p style="text-align: justify; font-size: 15px; color: rgb(50,50,50); padding-right: 10px;">
-									<strong>Communications in Computer and Information Science (CCIS) Volume 2333, 2334,
-										2335 and
-										2336<br>Advanced Network Technologies and Intelligent
-										Computing</strong><br>Fourth
-									International
-									Conference, ANTIC 2024, Varanasi, India, December 19–21, 2024
-									<br><strong>Proceedings Editors</strong><br>Anshul Verma, Pradeepika Verma, Kiran
-									Kumar
-									Pattanaik,
-									Rajkumar Buyya, Dipankar Dasgupta
-									<br><strong>Part I :</strong>
-									<a style="line-height: 25px; font-style: italic;" href="https://link.springer.com/book/10.1007/978-3-031-83783-8" target="_blank">https://link.springer.com/book/10.1007/978-3-031-83783-8</a>
-									<br><strong>Part II :</strong>
-									<a style="line-height: 25px; font-style: italic;" href="https://link.springer.com/book/10.1007/978-3-031-83790-6" target="_blank">https://link.springer.com/book/10.1007/978-3-031-83790-6</a>
-									<br><strong>Part III :</strong>
-									<a style="line-height: 25px; font-style: italic;" href="https://link.springer.com/book/10.1007/978-3-031-83793-7" target="_blank">https://link.springer.com/book/10.1007/978-3-031-83793-7</a>
-									<br><strong>Part IV :</strong>
-									<a style="line-height: 25px; font-style: italic;" href="https://link.springer.com/book/10.1007/978-3-031-83796-8" target="_blank">https://link.springer.com/book/10.1007/978-3-031-83796-8</a>
-								</p>
+								<div class="past-card-separator"></div>
+								<div class="past-card-right">
+									<h3>ANTIC-2024</h3>
+									<p>
+										<strong>Communications in Computer and Information Science (CCIS) Volume 2333, 2334, 2335 and 2336<br>Advanced Network Technologies and Intelligent Computing</strong><br>Fourth International Conference, ANTIC 2024, Varanasi, India, December 19–21, 2024 <br><strong>Proceedings Editors</strong><br>Anshul Verma, Pradeepika Verma, Kiran Kumar Pattanaik, Rajkumar Buyya, Dipankar Dasgupta<br><strong>Part I :</strong> <a href="https://link.springer.com/book/10.1007/978-3-031-83783-8" target="_blank">https://link.springer.com/book/10.1007/978-3-031-83783-8</a><br><strong>Part II :</strong> <a href="https://link.springer.com/book/10.1007/978-3-031-83790-6" target="_blank">https://link.springer.com/book/10.1007/978-3-031-83790-6</a><br><strong>Part III :</strong> <a href="https://link.springer.com/book/10.1007/978-3-031-83793-7" target="_blank">https://link.springer.com/book/10.1007/978-3-031-83793-7</a><br><strong>Part IV :</strong> <a href="https://link.springer.com/book/10.1007/978-3-031-83796-8" target="_blank">https://link.springer.com/book/10.1007/978-3-031-83796-8</a>
+									</p>
+								</div>
 							</div>
-							<div class="col-lg-12" style="top: 80px">
-								<div><img src="/static/img/antic-2025-proc-cover.webp" style="height: 220px; float: left; margin:0px 50px 0px 100px;" alt="Antic 2025 Proc Cover">
+
+							<!-- ANTIC-2025 -->
+							<div class="past-conferences-card">
+								<div class="past-card-left">
+									<img src="/static/img/antic-2025-proc-cover.webp" alt="ANTIC 2025 Cover">
 								</div>
-								<h3 style="font-size: 18px; font-weight: bold; text-transform: uppercase; margin-bottom: 10px;">
-									ANTIC-2025</h3>
-								<p style="text-align: justify; font-size: 15px; color: rgb(50,50,50); padding-right: 10px;">
-									<strong>Communications in Computer and Information Science (CCIS) Volume 2920, 2921
-										and 2922<br>Advanced Network Technologies and Intelligent
-										Computing</strong><br>Fifth International Conference, ANTIC 2025, Gwalior, India, December 21–23, 2025
-									<br><strong>Proceedings Editors</strong><br>
-									Anshul Verma, Pradeepika Verma, Kiran Kumar Pattanaik, Rajkumar Buyya, Dipankar Dasgupta, Mahendra Kumar Shukla
-									<br><strong>Part I :</strong>
-									<a style="line-height: 25px; font-style: italic;" href="#" target="_blank">Under Production</a>
-									<br><strong>Part II :</strong>
-									<a style="line-height: 25px; font-style: italic;" href="https://link.springer.com/book/10.1007/978-3-032-27117-4" target="_blank">https://link.springer.com/book/10.1007/978-3-032-27117-4</a>
-									<br><strong>Part III :</strong>
-									<a style="line-height: 25px; font-style: italic;" href="https://link.springer.com/book/10.1007/978-3-032-27120-4" target="_blank">https://link.springer.com/book/10.1007/978-3-032-27120-4</a>
-								</p>
+								<div class="past-card-separator"></div>
+								<div class="past-card-right">
+									<h3>ANTIC-2025</h3>
+									<p>
+										<strong>Communications in Computer and Information Science (CCIS) Volume 2920, 2921 and 2922<br>Advanced Network Technologies and Intelligent Computing</strong><br>Fifth International Conference, ANTIC 2025, Gwalior, India, December 21–23, 2025 <br><strong>Proceedings Editors</strong><br>Anshul Verma, Pradeepika Verma, Kiran Kumar Pattanaik, Rajkumar Buyya, Dipankar Dasgupta, Mahendra Kumar Shukla<br><strong>Part I :</strong> <a href="#" target="_blank">Under Production</a><br><strong>Part II :</strong> <a href="https://link.springer.com/book/10.1007/978-3-032-27117-4" target="_blank">https://link.springer.com/book/10.1007/978-3-032-27117-4</a><br><strong>Part III :</strong> <a href="https://link.springer.com/book/10.1007/978-3-032-27120-4" target="_blank">https://link.springer.com/book/10.1007/978-3-032-27120-4</a>
+									</p>
+								</div>
 							</div>
 						</div>
 					</div>
@@ -1121,116 +1286,100 @@
 				<div class="container" id="proceedings-mob">
 					<div class="section-header">
 						<h2 style="padding-bottom: 10px; font-size: 25px;">Past ANTIC Conferences</h2>
-						<div class="row" style="text-align: center;">
-							<div class="col-lg-12" style=" padding-bottom: 10px;">
-								<p style="text-align: center; font-size: 15px; color: rgb(50,50,50); padding-right: 10px;">
-									<strong><a style="line-height: 60px; font-style: italic;" href="https://link.springer.com/conference/antic" target="_blank">https://link.springer.com/conference/antic</a>
-
-										<h3 style="font-size: 18px; font-weight: bold; text-transform: uppercase; margin-bottom: 10px;">
-											ANTIC-2021</h3>
-										<div><img src="/static/img/1.jpg" style="height: 200px; margin:5px 5px 5px 5px;" alt="1">
+						<div class="past-conferences-accordion">
+							<!-- Item for ANTIC-2021 -->
+							<div class="accordion-item">
+								<button class="accordion-header">
+									<span>ANTIC-2021</span>
+									<i class="fa fa-chevron-down"></i>
+								</button>
+								<div class="accordion-content">
+									<div class="accordion-content-inner">
+										<div class="past-card-top">
+											<img src="/static/img/1.jpg" alt="ANTIC 2021 Cover">
 										</div>
-										<p style="text-align: center; font-size: 15px; color: rgb(50,50,50); padding-right: 10px;">
-											<strong>Communications in Computer and Information Science (CCIS)<br>Volume
-												1534<br>Advanced
-												Network
-												Technologies and Intelligent Computing</strong><br>First International
-											Conference,
-											ANTIC 2021,
-											Varanasi, India, December 17–18, 2021 <br><strong>Proceedings
-												Editors</strong><br>Isaac
-											Woungang,
-											Sanjay Kumar Dhurandher, Kiran Kumar Pattanaik, Anshul Verma, Pradeepika Verma<br>
-											<a style="line-height: 30px; font-style: italic;" href="https://link.springer.com/book/10.1007/978-3-030-96040-7" target="_blank"><strong>https://link.springer.com/book/10.1007/978-3-030-96040-7</strong></a>
-										</p>
-
-										<h3 style="font-size: 18px; font-weight: bold; text-transform: uppercase; margin-bottom: 10px;">
-											ANTIC-2022</h3>
-										<div><img src="/static/img/2.jpg" style="height: 200px; margin:5px 5px 5px 5px;" alt="2">
+										<div class="past-card-horizontal-separator"></div>
+										<div class="past-card-details">
+											<strong>Communications in Computer and Information Science (CCIS) Volume 1534<br>Advanced Network Technologies and Intelligent Computing</strong><br>First International Conference, ANTIC 2021, Varanasi, India, December 17–18, 2021 <br><strong>Proceedings Editors</strong><br>Isaac Woungang, Sanjay Kumar Dhurandher, Kiran Kumar Pattanaik, Anshul Verma, Pradeepika Verma<br><a href="https://link.springer.com/book/10.1007/978-3-030-96040-7" target="_blank">https://link.springer.com/book/10.1007/978-3-030-96040-7</a>
 										</div>
-										<p style="text-align: center; font-size: 15px; color: rgb(50,50,50); padding-right: 10px;">
-											<strong>Communications in Computer and Information Science (CCIS)<br> Volume 1797 &
-												1798<br>Advanced
-												Network Technologies and Intelligent Computing</strong><br>Second International
-											Conference, ANTIC
-											2022, Varanasi, India, December 22–24, 2022 <br><strong>Proceedings
-												Editors</strong><br>Isaac
-											Woungang, Sanjay Kumar Dhurandher, Kiran Kumar Pattanaik, Anshul Verma, Pradeepika
-											Verma<br><strong>Part I :</strong><br>
-											<a style="font-style: italic;line-height: 30px;" href="https://link.springer.com/book/10.1007/978-3-031-28180-8" target="_blank"><strong>https://link.springer.com/book/10.1007/978-3-031-28180-8</strong></a>
-											<br><strong>Part II :</strong><br>
-											<a style="font-style: italic;line-height: 30px;" href="https://link.springer.com/book/10.1007/978-3-031-28183-9" target="_blank"><strong>https://link.springer.com/book/10.1007/978-3-031-28183-9</strong></a>
-										</p>
+									</div>
+								</div>
+							</div>
 
-										<h3 style="font-size: 18px; font-weight: bold; text-transform: uppercase; margin-bottom: 10px;">
-											ANTIC-2023</h3>
-										<div><img src="/static/img/antic-2023-proc-cover.png" style="height: 200px; margin:5px 5px 5px 5px;" alt="Antic 2023 Proc Cover"></div>
-										<p style="text-align: center; font-size: 15px; color: rgb(50,50,50); padding-right: 10px;">
-											<strong>Communications in Computer and Information Science<br> (CCIS)<br> Volume
-												2090,
-												2091, 2092 and
-												2093 <br>
-												Advanced Network Technologies and Intelligent Computing</strong><br>Third
-											International Conference,
-											ANTIC
-											2023, Varanasi, India, December 20–22, 2023 <br><strong>Proceedings
-												Editors</strong><br>Anshul
-											Verma,
-											Pradeepika Verma, Kiran Kumar Pattanaik, Sanjay Kumar Dhurandher, Isaac Woungang
-											Verma<br>
-											<strong>Part I :</strong><br>
-											<a style="font-style: italic;line-height: 30px;" href="https://link.springer.com/book/10.1007/978-3-031-64076-6" target="_blank"><strong>https://link.springer.com/book/10.1007/978-3-031-64076-6</strong></a>
-											<br><strong>Part II :</strong><br>
-											<a style="font-style: italic;line-height: 30px;" href="https://link.springer.com/book/10.1007/978-3-031-64064-3" target="_blank"><strong>https://link.springer.com/book/10.1007/978-3-031-64064-3</strong></a>
-											<br>
-											<strong>Part III :</strong><br>
-											<a style="font-style: italic;line-height: 30px;" href="https://link.springer.com/book/10.1007/978-3-031-64070-4" target="_blank"><strong>https://link.springer.com/book/10.1007/978-3-031-64070-4</strong></a>
-											<br><strong>Part IV :</strong><br>
-											<a style="font-style: italic;line-height: 30px;" href="https://link.springer.com/book/10.1007/978-3-031-64067-4" target="_blank"><strong>https://link.springer.com/book/10.1007/978-3-031-64067-4</strong></a>
-										</p>
+							<!-- Item for ANTIC-2022 -->
+							<div class="accordion-item">
+								<button class="accordion-header">
+									<span>ANTIC-2022</span>
+									<i class="fa fa-chevron-down"></i>
+								</button>
+								<div class="accordion-content">
+									<div class="accordion-content-inner">
+										<div class="past-card-top">
+											<img src="/static/img/2.jpg" alt="ANTIC 2022 Cover">
+										</div>
+										<div class="past-card-horizontal-separator"></div>
+										<div class="past-card-details">
+											<strong>Communications in Computer and Information Science (CCIS) Volume 1797 & 1798<br>Advanced Network Technologies and Intelligent Computing</strong><br>Second International Conference, ANTIC 2022, Varanasi, India, December 22–24, 2022 <br><strong>Proceedings Editors</strong><br>Isaac Woungang, Sanjay Kumar Dhurandher, Kiran Kumar Pattanaik, Anshul Verma, Pradeepika Verma<br><strong>Part I :</strong> <a href="https://link.springer.com/book/10.1007/978-3-031-28180-8" target="_blank">https://link.springer.com/book/10.1007/978-3-031-28180-8</a><br><strong>Part II :</strong> <a href="https://link.springer.com/book/10.1007/978-3-031-28183-9" target="_blank">https://link.springer.com/book/10.1007/978-3-031-28183-9</a>
+										</div>
+									</div>
+								</div>
+							</div>
 
+							<!-- Item for ANTIC-2023 -->
+							<div class="accordion-item">
+								<button class="accordion-header">
+									<span>ANTIC-2023</span>
+									<i class="fa fa-chevron-down"></i>
+								</button>
+								<div class="accordion-content">
+									<div class="accordion-content-inner">
+										<div class="past-card-top">
+											<img src="/static/img/antic-2023-proc-cover.png" alt="ANTIC 2023 Cover">
+										</div>
+										<div class="past-card-horizontal-separator"></div>
+										<div class="past-card-details">
+											<strong>Communications in Computer and Information Science (CCIS) Volume 2090, 2091, 2092 and 2093<br>Advanced Network Technologies and Intelligent Computing</strong><br>Third International Conference, ANTIC 2023, Varanasi, India, December 20–22, 2023 <br><strong>Proceedings Editors</strong><br>Anshul Verma, Pradeepika Verma, Kiran Kumar Pattanaik, Sanjay Kumar Dhurandher, Isaac Woungang<br><strong>Part I :</strong> <a href="https://link.springer.com/book/10.1007/978-3-031-64076-6" target="_blank">https://link.springer.com/book/10.1007/978-3-031-64076-6</a><br><strong>Part II :</strong> <a href="https://link.springer.com/book/10.1007/978-3-031-64064-3" target="_blank">https://link.springer.com/book/10.1007/978-3-031-64064-3</a><br><strong>Part III :</strong> <a href="https://link.springer.com/book/10.1007/978-3-031-64070-4" target="_blank">https://link.springer.com/book/10.1007/978-3-031-64070-4</a><br><strong>Part IV :</strong> <a href="https://link.springer.com/book/10.1007/978-3-031-64067-4" target="_blank">https://link.springer.com/book/10.1007/978-3-031-64067-4</a>
+										</div>
+									</div>
+								</div>
+							</div>
 
-										<h3 style="font-size: 18px; font-weight: bold; text-transform: uppercase; margin-bottom: 10px;">
-											ANTIC-2024</h3>
-										<div><img src="/static/img/antic-2024-proc-cover.webp" style="height: 200px; margin:5px 5px 5px 5px;" alt="Antic 2024 Proc Cover"></div>
-										<p style="text-align: center; font-size: 15px; color: rgb(50,50,50); padding-right: 10px;">
-											<strong>Communications in Computer and Information Science <br> (CCIS) <br>Volume
-												2333,
-												2334, 2335 and
-												2336<br>
-												Advanced Network Technologies and Intelligent Computing</strong><br>Fourth
-											International Conference,
-											ANTIC 2024, Varanasi, India, December 19–21, 2024
-											<br><strong>Proceedings Editors</strong><br>Anshul Verma, Pradeepika Verma, Kiran
-											Kumar
-											Pattanaik,
-											Rajkumar Buyya, Dipankar Dasgupta<br>
-											<strong>Part I :</strong><br>
-											<a style="font-style: italic;line-height: 30px;" href="https://link.springer.com/book/10.1007/978-3-031-83783-8" target="_blank"><strong>https://link.springer.com/book/10.1007/978-3-031-83783-8</strong></a>
-											<br><strong>Part II :</strong><br>
-											<a style="font-style: italic;line-height: 30px;" href="https://link.springer.com/book/10.1007/978-3-031-83790-6" target="_blank"><strong>https://link.springer.com/book/10.1007/978-3-031-83790-6</strong></a>
-											<br>
-											<strong>Part III :</strong><br>
-											<a style="font-style: italic;line-height: 30px;" href="https://link.springer.com/book/10.1007/978-3-031-83793-7" target="_blank"><strong>https://link.springer.com/book/10.1007/978-3-031-83793-7</strong></a>
-											<br><strong>Part IV :</strong><br>
-											<a style="font-style: italic;line-height: 30px;" href="https://link.springer.com/book/10.1007/978-3-031-83796-8" target="_blank"><strong>https://link.springer.com/book/10.1007/978-3-031-83796-8</strong></a>
-										</p>
-										<h3 style="font-size: 18px; font-weight: bold; text-transform: uppercase; margin-bottom: 10px;">
-											ANTIC-2025</h3>
-										<div><img src="/static/img/antic-2025-proc-cover.webp" style="height: 200px; margin:5px 5px 5px 5px;" alt="Antic 2025 Proc Cover"></div>
-										<p style="text-align: justify; font-size: 15px; color: rgb(50,50,50); padding-right: 10px;">
-											<strong>Communications in Computer and Information Science (CCIS) Volume 2920, 2921
-												and 2922<br>Advanced Network Technologies and Intelligent
-												Computing</strong><br>Fifth International Conference, ANTIC 2025, Gwalior, India, December 21–23, 2025
-											<br><strong>Proceedings Editors</strong><br>
-											Anshul Verma, Pradeepika Verma, Kiran Kumar Pattanaik, Rajkumar Buyya, Dipankar Dasgupta, Mahendra Kumar Shukla
-											<br><strong>Part I :</strong>
-											<a style="line-height: 25px; font-style: italic;" href="#" target="_blank">Under Production</a>
-											<br><strong>Part II :</strong>
-											<a style="line-height: 25px; font-style: italic;" href="https://link.springer.com/book/10.1007/978-3-032-27117-4" target="_blank">https://link.springer.com/book/10.1007/978-3-032-27117-4</a>
-											<br><strong>Part III :</strong>
-											<a style="line-height: 25px; font-style: italic;" href="https://link.springer.com/book/10.1007/978-3-032-27120-4" target="_blank">https://link.springer.com/book/10.1007/978-3-032-27120-4</a>
-										</p>
+							<!-- Item for ANTIC-2024 -->
+							<div class="accordion-item">
+								<button class="accordion-header">
+									<span>ANTIC-2024</span>
+									<i class="fa fa-chevron-down"></i>
+								</button>
+								<div class="accordion-content">
+									<div class="accordion-content-inner">
+										<div class="past-card-top">
+											<img src="/static/img/antic-2024-proc-cover.webp" alt="ANTIC 2024 Cover">
+										</div>
+										<div class="past-card-horizontal-separator"></div>
+										<div class="past-card-details">
+											<strong>Communications in Computer and Information Science (CCIS) Volume 2333, 2334, 2335 and 2336<br>Advanced Network Technologies and Intelligent Computing</strong><br>Fourth International Conference, ANTIC 2024, Varanasi, India, December 19–21, 2024 <br><strong>Proceedings Editors</strong><br>Anshul Verma, Pradeepika Verma, Kiran Kumar Pattanaik, Rajkumar Buyya, Dipankar Dasgupta<br><strong>Part I :</strong> <a href="https://link.springer.com/book/10.1007/978-3-031-83783-8" target="_blank">https://link.springer.com/book/10.1007/978-3-031-83783-8</a><br><strong>Part II :</strong> <a href="https://link.springer.com/book/10.1007/978-3-031-83790-6" target="_blank">https://link.springer.com/book/10.1007/978-3-031-83790-6</a><br><strong>Part III :</strong> <a href="https://link.springer.com/book/10.1007/978-3-031-83793-7" target="_blank">https://link.springer.com/book/10.1007/978-3-031-83793-7</a><br><strong>Part IV :</strong> <a href="https://link.springer.com/book/10.1007/978-3-031-83796-8" target="_blank">https://link.springer.com/book/10.1007/978-3-031-83796-8</a>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<!-- Item for ANTIC-2025 -->
+							<div class="accordion-item">
+								<button class="accordion-header">
+									<span>ANTIC-2025</span>
+									<i class="fa fa-chevron-down"></i>
+								</button>
+								<div class="accordion-content">
+									<div class="accordion-content-inner">
+										<div class="past-card-top">
+											<img src="/static/img/antic-2025-proc-cover.webp" alt="ANTIC 2025 Cover">
+										</div>
+										<div class="past-card-horizontal-separator"></div>
+										<div class="past-card-details">
+											<strong>Communications in Computer and Information Science (CCIS) Volume 2920, 2921 and 2922<br>Advanced Network Technologies and Intelligent Computing</strong><br>Fifth International Conference, ANTIC 2025, Gwalior, India, December 21–23, 2025 <br><strong>Proceedings Editors</strong><br>Anshul Verma, Pradeepika Verma, Kiran Kumar Pattanaik, Rajkumar Buyya, Dipankar Dasgupta, Mahendra Kumar Shukla<br><strong>Part I :</strong> <a href="#" target="_blank">Under Production</a><br><strong>Part II :</strong> <a href="https://link.springer.com/book/10.1007/978-3-032-27117-4" target="_blank">https://link.springer.com/book/10.1007/978-3-032-27117-4</a><br><strong>Part III :</strong> <a href="https://link.springer.com/book/10.1007/978-3-032-27120-4" target="_blank">https://link.springer.com/book/10.1007/978-3-032-27120-4</a>
+										</div>
+									</div>
+								</div>
 							</div>
 						</div>
 					</div>
@@ -1303,6 +1452,26 @@
 				moreText.style.display = "inline";
 			}
 		}
+	</script>
+
+	<script>
+		document.addEventListener('DOMContentLoaded', () => {
+			document.querySelectorAll('.accordion-header').forEach(header => {
+				header.addEventListener('click', () => {
+					const item = header.parentElement;
+					const content = item.querySelector('.accordion-content');
+					const isActive = item.classList.contains('active');
+
+					if (isActive) {
+						item.classList.remove('active');
+						content.style.maxHeight = null;
+					} else {
+						item.classList.add('active');
+						content.style.maxHeight = content.scrollHeight + 'px';
+					}
+				});
+			});
+		});
 	</script>
 
 	<script src="/static/contactform/contactform.js"></script>
