@@ -96,8 +96,8 @@
                         <li><a href="#guidelines" onclick="umami.track('menu_guidelines')">Guidelines</a></li>
                         <li><a href="#dates" onclick="umami.track('menu_dates')">Important Dates</a></li>
                         <li><a href="#payment_details" onclick="umami.track('menu_dates')">Registration Details</a></li>
-                        <li><a href="/committee.html" onclick="umami.track('menu_committee')">Committee</a></li>
-                        <li><a href="/gallery.html" onclick="umami.track('menu_gallery')">Gallery</a></li>
+                        <li><a href="/antic-2025/committee.html" onclick="umami.track('menu_committee')">Committee</a></li>
+                        <li><a href="/antic-2025/gallery.html" onclick="umami.track('menu_gallery')">Gallery</a></li>
                         <!-- <li><a href="/workshop.html"> Workshop</a></li> -->
                         <li><a href="#contacts" onclick="umami.track('menu_contacts')">Contact</a></li>
                         <!-- <li><a href="#howToReach">How To Reach</a></li> -->
@@ -109,7 +109,7 @@
                                 <li><a href="/antic-2024/index.html" onclick="umami.track('menu_antic24')">Antic 2024</a></li>
                             </ul>
                         </li>
-                        <li class="buy-tickets"><a href="/workshop.html" onclick="umami.track('menu_AAMLAD')">AAMLAD-2025</a></li>
+                        <li class="buy-tickets"><a href="/antic-2025/workshop.html" onclick="umami.track('menu_AAMLAD')">AAMLAD-2025</a></li>
                     </ul>
                 </nav><!-- #nav-menu-container -->
             </div>
@@ -133,9 +133,9 @@
                     <li><a href="#guidelines-mob"><i class="fa fa-file-text-o" aria-hidden="true"></i></a></li>
                     <li><a href="#dates-mob"><i class="fa fa-calendar"></i></a></li>
                     <li><a href="#payment_details-mob"><i class="fa fa-info"></i></a></li>
-                    <li><a href="/committee.html"><i class="fa fa-users"></i></a></li>
-                    <li><a href="/gallery.html"><i class="fa fa-picture-o"></i></a></li>
-                    <li><a href="/workshop.html"><i class="fa fa-flask" aria-hidden="true"></i></a></li>
+                    <li><a href="/antic-2025/committee.html"><i class="fa fa-users"></i></a></li>
+                    <li><a href="/antic-2025/gallery.html"><i class="fa fa-picture-o"></i></a></li>
+                    <li><a href="/antic-2025/workshop.html"><i class="fa fa-flask" aria-hidden="true"></i></a></li>
                     <li><a href="#contacts"><i class="fa fa-envelope"></i></a></li>
                     <!-- <li><a href="#howToReach"><i class="fa fa-map-marker-alt"></i></a></li> -->
                     <li class="menu-has-children"><a href="#"> <i class="fa fa-history"></i></a>
@@ -148,7 +148,7 @@
                             <li><a href="/antic-2024/index.html">Antic 2024</a></li>
                         </ul>
                     </li>
-                    <li><a href="/workshop.html"><i class="fa fa-exclamation-circle"></i></a></li>
+                    <li><a href="/antic-2025/workshop.html"><i class="fa fa-exclamation-circle"></i></a></li>
                 </ul>
             </nav>
         </header>
@@ -2344,7 +2344,7 @@
         <div id="footer-container"></div>
     </div>
     <script>
-        fetch('/footer.html')
+        fetch('/antic-2025/footer.html')
             .then(res => res.text())
             .then(html => {
                 document.getElementById('footer-container').innerHTML = html;
