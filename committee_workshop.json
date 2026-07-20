@@ -4,10 +4,10 @@
       "committeeTitle": "Patron",
       "members": [
         {
-          "name": "Dr. A. M. Sherry",
+          "name": "Dr. Manindra Agrawal",
           "affiliation": "IIIT, Lucknow, India",
-          "designation": "Director",
-          "photo": ""
+          "designation": "Director In-Charge",
+          "photo": "/static/img/cm/mahindraAgrawal.png"
         }
       ]
     },
@@ -35,13 +35,19 @@
           "name": "Prof. Rajendra Sahu",
           "affiliation": "ABV-Indian Institute of Information Technology and Management, Gwalior, India",
           "designation": "",
-          "photo": ""
+          "photo": "/static/img/cm/rajendrasahu.jpg"
         },
         {
           "name": "Prof. Anupam Shukla",
-          "affiliation": "Indian Institute of Information Technology, Pune, India",
+          "affiliation": "Sardar Vallabhbhai National Institute of Technology, Ichchhanath, Surat, India",
           "designation": "",
-          "photo": ""
+          "photo": "/static/img/cm/ab2.jpg"
+        },
+        {
+          "name": "Dr. A. M. Sherry",
+          "affiliation": "Indian Institute of Management Shillong, India",
+          "designation": "",
+          "photo": "/static/img/cm/amsherry.webp"
         },
         {
           "name": "Prof. Bansidhar Majhi",
@@ -89,13 +95,13 @@
           "name": "Prof. Aditya Trivedi",
           "affiliation": "ABV-Indian Institute of Information Technology and Management, Gwalior, India",
           "designation": "",
-          "photo": ""
+          "photo": "/static/img/cm/adityaTrivedi.jpg"
         },
         {
           "name": "Prof. Mahua Bhattacharya",
           "affiliation": "ABV-Indian Institute of Information Technology and Management, Gwalior, India",
           "designation": "",
-          "photo": ""
+          "photo": "/static/img/cm/mahuaBhattacharya.png"
         }
       ]
     },
@@ -120,10 +126,10 @@
       "committeeTitle": "Program Chair",
       "members": [
         {
-          "name": "Dr. Saurabh Shukla",
+          "name": "Dr. Deepak Singh",
           "affiliation": "IIIT, Lucknow, India",
           "designation": "",
-          "photo": ""
+          "photo": "/static/img/cm/deepakSingh.png"
         }
       ]
     },
@@ -145,13 +151,13 @@
           "name": "Dr. Shubhra Jain",
           "affiliation": "IIIT, Lucknow, India",
           "designation": "",
-          "photo": ""
+          "photo": "/static/img/cm/shubhraJain.png"
         },
         {
           "name": "Dr. Niharika Anand",
           "affiliation": "IIIT, Lucknow, India",
           "designation": "",
-          "photo": ""
+          "photo": "/static/img/cm/niharikaanand.webp"
         },
         {
           "name": "Dr. Pradeepika Verma",
