@@ -4,10 +4,10 @@
       "committeeTitle": "Patron",
       "members": [
         {
-          "name": "Dr. A. M. Sherry",
+          "name": "Dr. Manindra Agrawal",
           "affiliation": "IIIT, Lucknow, India",
-          "designation": "Director",
-          "photo": "/static/img/cm/amsherry.webp"
+          "designation": "Director In-Charge",
+          "photo": "/static/img/cm/mahindraAgrawal.png"
         }
       ]
     },
@@ -42,6 +42,12 @@
           "affiliation": "Sardar Vallabhbhai National Institute of Technology, Ichchhanath, Surat, India",
           "designation": "",
           "photo": "/static/img/cm/ab2.jpg"
+        },
+        {
+          "name": "Dr. A. M. Sherry",
+          "affiliation": "Indian Institute of Management Shillong, India",
+          "designation": "",
+          "photo": "/static/img/cm/amsherry.webp"
         },
         {
           "name": "Prof. Bansidhar Majhi",
@@ -120,10 +126,10 @@
       "committeeTitle": "Program Chair",
       "members": [
         {
-          "name": "Dr. Saurabh Shukla",
+          "name": "Dr. Deepak Singh",
           "affiliation": "IIIT, Lucknow, India",
           "designation": "",
-          "photo": "/static/img/cm/saurabhShukla.webp"
+          "photo": "/static/img/cm/deepakSingh.png"
         }
       ]
     },
