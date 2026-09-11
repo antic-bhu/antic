@@ -77,10 +77,10 @@
           "photo": "/static/img/cm/shubhraJain.png"
         },
         {
-          "name": "Dr. Niharika Anand",
+          "name": "Dr. Saurabh Shukla",
           "affiliation": "IIIT, Lucknow, India",
           "designation": "",
-          "photo": "/static/img/cm/niharikaanand.webp"
+          "photo": "/static/img/cm/saurabhshukla.jpeg"
         },
         {
           "name": "Dr. Pradeepika Verma",
@@ -94,22 +94,16 @@
       "committeeTitle": "Organizing Committee",
       "members": [
         {
-          "name": "Dr. Shubhra Jain",
-          "affiliation": "IIIT, Lucknow, India",
-          "designation": "",
-          "photo": ""
-        },
-        {
           "name": "Dr. Ankita Srivastava",
           "affiliation": "IIIT, Lucknow, India",
           "designation": "",
           "photo": ""
         },
         {
-          "name": "Dr. Soumendu Chakraborty",
-          "affiliation": "IIIT, Lucknow, India",
+          "name": "Dr. Awadhesh Kumar",
+          "affiliation": "MMV, Banaras Hindu University, Varanasi, India",
           "designation": "",
-          "photo": ""
+          "photo": "https://www.bhu.ac.in/Content/Photos/Faculties/FA000576.jpeg"
         },
         {
           "name": "Dr. Deepak Kumar Singh",
@@ -124,19 +118,67 @@
           "photo": ""
         },
         {
+          "name": "Dr. Gaurav Baranwal",
+          "affiliation": "Banaras Hindu University, Varanasi, India",
+          "designation": "",
+          "photo": "/static/img/cm/os1.jpg"
+        },
+        {
+          "name": "Dr. Madhurima Datta",
+          "affiliation": "IIIT, Lucknow, India",
+          "designation": "",
+          "photo": ""
+        },
+        {
+          "name": "Dr. Mary Samuel",
+          "affiliation": "IIIT, Lucknow, India",
+          "designation": "",
+          "photo": ""
+        },
+        {
           "name": "Dr. Niharika Anand",
           "affiliation": "IIIT, Lucknow, India",
           "designation": "",
           "photo": ""
         },
         {
-          "name": "Dr. Varun Sharma",
+          "name": "Dr. Nishu Gupta",
           "affiliation": "IIIT, Lucknow, India",
           "designation": "",
           "photo": ""
         },
         {
-          "name": "Dr. Madhurima Datta",
+          "name": "Dr. Nitin Kumar",
+          "affiliation": "IIIT, Lucknow, India",
+          "designation": "",
+          "photo": ""
+        },
+        {
+          "name": "Dr. Ramprasad Sarkar",
+          "affiliation": "IIIT, Lucknow, India",
+          "designation": "",
+          "photo": ""
+        },
+        {
+          "name": "Dr. S. N. Chaurasia",
+          "affiliation": "Banaras Hindu University, Varanasi, India",
+          "designation": "",
+          "photo": "/static/img/cm/snc_cs.png"
+        },
+        {
+          "name": "Dr. S. Suresh",
+          "affiliation": "National Institute of Technology, Kurukshetra, India",
+          "designation": "",
+          "photo": "/static/img/cm/os3.jpg"
+        },
+        {
+          "name": "Dr. Saurabh Shukla",
+          "affiliation": "IIIT, Lucknow, India",
+          "designation": "",
+          "photo": ""
+        },
+        {
+          "name": "Dr. Shubhra Jain",
           "affiliation": "IIIT, Lucknow, India",
           "designation": "",
           "photo": ""
@@ -148,34 +190,16 @@
           "photo": ""
         },
         {
-          "name": "Dr. Saurabh Shukla",
+          "name": "Dr. Soumendu Chakraborty",
           "affiliation": "IIIT, Lucknow, India",
           "designation": "",
           "photo": ""
         },
         {
-          "name": "Dr. Gaurav Baranwal",
-          "affiliation": "Banaras Hindu University, Varanasi, India",
+          "name": "Dr. Varun Sharma",
+          "affiliation": "IIIT, Lucknow, India",
           "designation": "",
-          "photo": "/static/img/cm/os1.jpg"
-        },
-        {
-          "name": "Dr. S. N. Chaurasia",
-          "affiliation": "Banaras Hindu University, Varanasi, India",
-          "designation": "",
-          "photo": "/static/img/cm/snc_cs.png"
-        },
-        {
-          "name": "Dr. Awadhesh Kumar",
-          "affiliation": "MMV, Banaras Hindu University, Varanasi, India",
-          "designation": "",
-          "photo": "https://www.bhu.ac.in/Content/Photos/Faculties/FA000576.jpeg"
-        },
-        {
-          "name": "Dr. S. Suresh",
-          "affiliation": "National Institute of Technology, Kurukshetra, India",
-          "designation": "",
-          "photo": "/static/img/cm/os3.jpg"
+          "photo": ""
         }
       ],
       "view": 4
